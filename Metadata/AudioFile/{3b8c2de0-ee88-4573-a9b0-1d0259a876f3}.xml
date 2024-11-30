@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3b8c2de0-ee88-4573-a9b0-1d0259a876f3}">
 		<property name="assetPath">
 			<value>sfx/vigicowstomp.wav</value>

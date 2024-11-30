@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{1620cb9d-f4ae-4d65-9102-9467d278eb2f}">
 		<property name="assetPath">
 			<value>music/pizzascape noise.wav</value>

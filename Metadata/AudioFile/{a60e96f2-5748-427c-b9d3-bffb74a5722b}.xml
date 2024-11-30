@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a60e96f2-5748-427c-b9d3-bffb74a5722b}">
 		<property name="assetPath">
 			<value>sfx/JINGLE_3.wav</value>

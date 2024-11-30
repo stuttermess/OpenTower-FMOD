@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b34b6532-86fc-486e-8582-706ce71d5838}">
-		<property name="note" />
 		<property name="name">
 			<value>golfjingle</value>
 		</property>
@@ -379,8 +378,8 @@
 			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{beb16d43-9bfa-4548-8cda-155130ac7c03}</destination>
 			<destination>{33e1e661-f75f-4e79-928f-a8ea7cd3b718}</destination>
+			<destination>{beb16d43-9bfa-4548-8cda-155130ac7c03}</destination>
 			<destination>{03d7a7c6-2848-4145-98e3-2b7d8b72ea81}</destination>
 			<destination>{cdecde69-995f-47d0-b651-641403c97f32}</destination>
 		</relationship>
@@ -450,20 +449,20 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{beb16d43-9bfa-4548-8cda-155130ac7c03}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-70</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{33e1e661-f75f-4e79-928f-a8ea7cd3b718}">
 		<property name="position">
 			<value>2</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{beb16d43-9bfa-4548-8cda-155130ac7c03}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-70</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{03d7a7c6-2848-4145-98e3-2b7d8b72ea81}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{28b54152-b3ac-4e1c-81ea-9f9a4ae3905b}">
 		<property name="name">
 			<value>strongcoldtitle</value>
@@ -83,13 +83,13 @@
 			<destination>{8b850996-f7b8-4bac-836b-120fecbc2012}</destination>
 		</relationship>
 		<relationship name="markers">
+			<destination>{316067e0-2ab6-473b-9ae0-0db79ce48e3d}</destination>
 			<destination>{ed4af484-f81b-4fa4-983e-895ee28bb529}</destination>
 			<destination>{2d6117c7-9339-4393-a1b3-21a062e11143}</destination>
 			<destination>{9fc60950-911b-4803-85be-9c17b010392c}</destination>
 			<destination>{60940a53-6c38-4874-85fb-14d591f2f10f}</destination>
 			<destination>{e6b7c84b-cab0-4ca6-bc22-605c9890cf02}</destination>
 			<destination>{11f04bc6-4d6f-48f0-9a28-d62affc43fb5}</destination>
-			<destination>{316067e0-2ab6-473b-9ae0-0db79ce48e3d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{25fe59d2-88ee-40b5-a14b-c543773291c0}">
@@ -157,6 +157,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{25fe59d2-88ee-40b5-a14b-c543773291c0}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{316067e0-2ab6-473b-9ae0-0db79ce48e3d}">
+		<property name="position">
+			<value>15</value>
+		</property>
+		<property name="name">
+			<value>Marker C</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{713d4e86-42b7-4673-b9af-8ff751649e12}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{fc285bee-2c99-46c8-8111-193adbddac40}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{ed4af484-f81b-4fa4-983e-895ee28bb529}">
@@ -250,20 +264,6 @@
 		</relationship>
 		<relationship name="destination">
 			<destination>{316067e0-2ab6-473b-9ae0-0db79ce48e3d}</destination>
-		</relationship>
-	</object>
-	<object class="NamedMarker" id="{316067e0-2ab6-473b-9ae0-0db79ce48e3d}">
-		<property name="position">
-			<value>15</value>
-		</property>
-		<property name="name">
-			<value>Marker C</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{713d4e86-42b7-4673-b9af-8ff751649e12}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{fc285bee-2c99-46c8-8111-193adbddac40}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{33f85fe3-4f78-4b68-a9eb-776d54445ef0}">

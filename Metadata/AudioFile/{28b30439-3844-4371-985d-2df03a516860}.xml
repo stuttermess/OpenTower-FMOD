@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{28b30439-3844-4371-985d-2df03a516860}">
 		<property name="assetPath">
 			<value>music/Pizza_Tower_OST_-_Unexpectancy_Part_3_of_3.wav</value>

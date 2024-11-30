@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c2a4d2e4-1ae2-4f3b-b7b2-67a94b5a0ea2}">
 		<property name="name">
 			<value>breakdancecancel</value>
@@ -167,25 +167,25 @@
 			<destination>{211ea4bc-2901-4ab2-9ccd-51d61ff641d5}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{846dfbe8-5505-4af6-94c9-f0331a209621}</destination>
 			<destination>{03e61f4d-5444-430a-9cff-62e92ebfbaa9}</destination>
+			<destination>{846dfbe8-5505-4af6-94c9-f0331a209621}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c02a171c-39c0-4e45-9ef3-beac9315745a}" />
-	<object class="AutomationPoint" id="{846dfbe8-5505-4af6-94c9-f0331a209621}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-2</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{03e61f4d-5444-430a-9cff-62e92ebfbaa9}">
 		<property name="position">
 			<value>0.40010097125878263</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{846dfbe8-5505-4af6-94c9-f0331a209621}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-2</value>
 		</property>
 	</object>
 </objects>

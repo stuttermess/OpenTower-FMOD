@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{03a0b8a1-68f4-4f82-9e27-5bb7518b5fd9}">
 		<property name="assetPath">
 			<value>sfx/sfx_escaperumble.wav</value>

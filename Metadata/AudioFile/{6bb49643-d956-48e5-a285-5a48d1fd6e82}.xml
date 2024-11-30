@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6bb49643-d956-48e5-a285-5a48d1fd6e82}">
 		<property name="assetPath">
 			<value>sfx/axethrow.wav</value>

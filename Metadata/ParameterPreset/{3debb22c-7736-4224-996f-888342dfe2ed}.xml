@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{3debb22c-7736-4224-996f-888342dfe2ed}">
 		<property name="name">
 			<value>masterVolume</value>

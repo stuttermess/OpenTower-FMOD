@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ad2ad4f0-b5b9-43e3-aa86-3d3b21b35144}">
 		<property name="note">
 			<value>not barrelslopejump</value>
@@ -99,9 +99,9 @@
 	</object>
 	<object class="Timeline" id="{e93c5b0c-3e77-44ee-8f20-0dd16308cdb1}">
 		<relationship name="modules">
-			<destination>{a90a5646-d709-429a-90ce-5c0598affc7f}</destination>
 			<destination>{2165f0ef-6071-4774-abf9-990b48937b1d}</destination>
 			<destination>{e96a0636-3efd-40c2-846f-d5be9e848973}</destination>
+			<destination>{a90a5646-d709-429a-90ce-5c0598affc7f}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{0632cf60-0a3e-4e76-9bf8-2f3ca02d7b5a}</destination>

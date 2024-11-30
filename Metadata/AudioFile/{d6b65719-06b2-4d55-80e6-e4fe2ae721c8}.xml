@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d6b65719-06b2-4d55-80e6-e4fe2ae721c8}">
 		<property name="assetPath">
 			<value>sfx/fakepeppositive3.wav</value>

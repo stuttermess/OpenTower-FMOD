@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f56099c3-d569-41ed-9db2-8ea5fd024ecf}">
 		<property name="assetPath">
 			<value>music/Pizza_Tower_-_A_Frozen_Secret.wav</value>

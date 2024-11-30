@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b92765c8-08fa-4ff1-8ed1-e2e2eaf6b028}">
 		<property name="assetPath">
 			<value>modded/sound/sfx_mariotalk4.wav</value>

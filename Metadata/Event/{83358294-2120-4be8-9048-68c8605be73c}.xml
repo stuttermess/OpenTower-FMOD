@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{83358294-2120-4be8-9048-68c8605be73c}">
 		<property name="name">
 			<value>animatronic</value>

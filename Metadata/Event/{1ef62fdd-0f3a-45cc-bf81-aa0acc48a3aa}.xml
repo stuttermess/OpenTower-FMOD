@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1ef62fdd-0f3a-45cc-bf81-aa0acc48a3aa}">
 		<property name="name">
 			<value>vigiduel</value>
@@ -83,8 +83,8 @@
 	</object>
 	<object class="Timeline" id="{9c57e99e-391e-490e-afa4-5ecae2ab35dd}">
 		<relationship name="modules">
-			<destination>{5586a68c-cf79-4817-bba4-b5d73b6d423b}</destination>
 			<destination>{9cc441c7-4d33-4215-8267-c365e9c5a3ef}</destination>
+			<destination>{5586a68c-cf79-4817-bba4-b5d73b6d423b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{20dd00bd-dda2-4e77-b486-2e295f250ee9}">
@@ -222,9 +222,9 @@
 			<destination>{4907d289-e8c9-4840-8350-3579f63d573d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
+			<destination>{597605b1-c62b-4921-9f15-7c5d8e404a16}</destination>
 			<destination>{40598955-24c5-408f-9f1b-0119ea2c8014}</destination>
 			<destination>{45aa508f-268d-4475-8161-611b4dbd98b3}</destination>
-			<destination>{597605b1-c62b-4921-9f15-7c5d8e404a16}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c2d9375c-53b0-4f21-afbc-151ea667d8d0}" />
@@ -255,6 +255,14 @@
 			<destination>{cb2b742d-a967-4705-b301-e09c4e41c92a}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationPoint" id="{597605b1-c62b-4921-9f15-7c5d8e404a16}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{40598955-24c5-408f-9f1b-0119ea2c8014}">
 		<property name="position">
 			<value>0</value>
@@ -269,14 +277,6 @@
 		</property>
 		<property name="value">
 			<value>-6.00000381</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{597605b1-c62b-4921-9f15-7c5d8e404a16}">
-		<property name="position">
-			<value>2</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{106f4e63-60b7-4409-b0d0-3f00411a9a8f}">

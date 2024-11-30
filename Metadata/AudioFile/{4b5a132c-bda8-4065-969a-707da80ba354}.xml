@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4b5a132c-bda8-4065-969a-707da80ba354}">
 		<property name="assetPath">
 			<value>sfx/pickledance.wav</value>

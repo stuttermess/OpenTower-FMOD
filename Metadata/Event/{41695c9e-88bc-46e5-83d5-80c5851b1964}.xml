@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{41695c9e-88bc-46e5-83d5-80c5851b1964}">
 		<property name="name">
 			<value>dungeon</value>
@@ -81,8 +81,8 @@
 	</object>
 	<object class="Timeline" id="{1bb98d90-224d-45c9-8708-5db18de697d7}">
 		<relationship name="modules">
-			<destination>{fdd0d45b-7cbe-42f4-85e8-9a53012a9c80}</destination>
 			<destination>{f6f4c715-4caf-41d5-bcfe-eda07ce49d3f}</destination>
+			<destination>{fdd0d45b-7cbe-42f4-85e8-9a53012a9c80}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{8a2ed1bb-6590-4090-97d1-9da662eae3d6}</destination>

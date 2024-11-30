@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7d31554c-079f-48ec-a3ff-94b1ecffda21}">
 		<property name="name">
 			<value>gravecorpse</value>
@@ -219,9 +219,9 @@
 			<value>0.20000000000000001</value>
 		</property>
 		<relationship name="modules">
+			<destination>{b3385819-7e7b-4ecf-b08f-9c1e909df99b}</destination>
 			<destination>{5bde1f8b-2297-4f19-9028-2dff0fc00771}</destination>
 			<destination>{ae00b9b0-4371-4613-a61a-89577bc74ee7}</destination>
-			<destination>{b3385819-7e7b-4ecf-b08f-9c1e909df99b}</destination>
 			<destination>{3bb6333e-16e9-4c2b-ae6d-f78942de48c9}</destination>
 		</relationship>
 	</object>

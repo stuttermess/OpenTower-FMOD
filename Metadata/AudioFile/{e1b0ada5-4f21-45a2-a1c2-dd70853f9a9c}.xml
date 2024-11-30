@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e1b0ada5-4f21-45a2-a1c2-dd70853f9a9c}">
 		<property name="assetPath">
 			<value>music/Secret_Lockin_v1a.wav</value>

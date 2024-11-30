@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e51d9013-361b-41ea-8a2c-82d02e5dca62}">
 		<property name="assetPath">
 			<value>sfx/groundpoundloop.wav</value>

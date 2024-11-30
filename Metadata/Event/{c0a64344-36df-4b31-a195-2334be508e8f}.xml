@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c0a64344-36df-4b31-a195-2334be508e8f}">
 		<property name="name">
 			<value>plage</value>
@@ -81,8 +81,8 @@
 	</object>
 	<object class="Timeline" id="{998642a2-cf9b-4600-b67c-f933e6b80dd7}">
 		<relationship name="modules">
-			<destination>{f655716b-02cd-4c31-8efa-d1c7f4490bf5}</destination>
 			<destination>{122aa5ed-2016-424c-85f8-0961714270c7}</destination>
+			<destination>{f655716b-02cd-4c31-8efa-d1c7f4490bf5}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{f6b77fa8-6b26-4266-8915-f939d2b60bcb}</destination>

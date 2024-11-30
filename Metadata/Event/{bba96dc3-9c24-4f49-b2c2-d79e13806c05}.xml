@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bba96dc3-9c24-4f49-b2c2-d79e13806c05}">
 		<property name="name">
 			<value>kungfu</value>

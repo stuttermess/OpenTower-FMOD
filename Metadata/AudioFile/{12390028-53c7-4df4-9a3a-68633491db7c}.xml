@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{12390028-53c7-4df4-9a3a-68633491db7c}">
 		<property name="assetPath">
 			<value>sfx/antigravstart.wav</value>

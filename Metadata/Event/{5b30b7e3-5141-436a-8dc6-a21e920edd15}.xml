@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5b30b7e3-5141-436a-8dc6-a21e920edd15}">
 		<property name="name">
 			<value>bottlepop</value>

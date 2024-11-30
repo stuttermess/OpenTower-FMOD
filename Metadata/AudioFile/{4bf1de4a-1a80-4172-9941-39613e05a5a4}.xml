@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4bf1de4a-1a80-4172-9941-39613e05a5a4}">
 		<property name="assetPath">
 			<value>modded/italianpredicament.ogg</value>

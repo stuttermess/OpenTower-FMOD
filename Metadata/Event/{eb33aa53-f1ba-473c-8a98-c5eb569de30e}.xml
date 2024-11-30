@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{eb33aa53-f1ba-473c-8a98-c5eb569de30e}">
-		<property name="note" />
 		<property name="name">
 			<value>mortpunch</value>
 		</property>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c3f80fe3-b214-46d8-8b4d-fdba481ca1ea}">
 		<property name="name">
 			<value>doiserock</value>

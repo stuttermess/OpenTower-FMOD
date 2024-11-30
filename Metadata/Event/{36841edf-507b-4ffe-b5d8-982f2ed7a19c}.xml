@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{36841edf-507b-4ffe-b5d8-982f2ed7a19c}">
 		<property name="name">
 			<value>superjump</value>
@@ -87,8 +87,8 @@
 			<destination>{1849301e-ce90-45cb-853f-c27bd7e2286f}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{78cae512-9f9b-459c-af46-67af68832bbe}</destination>
 			<destination>{e4fe0eea-d127-4919-93fd-04268604bb2f}</destination>
+			<destination>{78cae512-9f9b-459c-af46-67af68832bbe}</destination>
 			<destination>{e574ba7a-40c1-42c4-b1a9-8c8ec2671901}</destination>
 		</relationship>
 	</object>
@@ -162,20 +162,6 @@
 			<destination>{e1e8077e-b47a-4d87-a0cf-848399aa2e9b}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{78cae512-9f9b-459c-af46-67af68832bbe}">
-		<property name="position">
-			<value>0.45800000000000002</value>
-		</property>
-		<property name="length">
-			<value>1.3782000000000005</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{07f45ed3-1b0e-4339-b61b-8c20ef0f4fef}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{86973a4a-8b6c-40ed-9883-7ccd0ddc4399}</destination>
-		</relationship>
-	</object>
 	<object class="NamedMarker" id="{e4fe0eea-d127-4919-93fd-04268604bb2f}">
 		<property name="position">
 			<value>2</value>
@@ -188,6 +174,20 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{c4237983-ff35-424f-806b-22826588ed90}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{78cae512-9f9b-459c-af46-67af68832bbe}">
+		<property name="position">
+			<value>0.45800000000000002</value>
+		</property>
+		<property name="length">
+			<value>1.3782000000000005</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{07f45ed3-1b0e-4339-b61b-8c20ef0f4fef}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{86973a4a-8b6c-40ed-9883-7ccd0ddc4399}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionRegion" id="{e574ba7a-40c1-42c4-b1a9-8c8ec2671901}">

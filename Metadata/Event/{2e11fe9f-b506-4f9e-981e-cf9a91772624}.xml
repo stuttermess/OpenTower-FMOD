@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2e11fe9f-b506-4f9e-981e-cf9a91772624}">
 		<property name="note">
 			<value>might be missing one voice sound</value>
@@ -90,8 +90,8 @@
 	</object>
 	<object class="Timeline" id="{26267bba-9270-4f8a-af8c-2fbfb69aec6b}">
 		<relationship name="modules">
-			<destination>{d586c359-0330-4c1c-a55e-7b87b82fd840}</destination>
 			<destination>{28665a8f-8cf3-43ed-9528-e63c6c978e99}</destination>
+			<destination>{d586c359-0330-4c1c-a55e-7b87b82fd840}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{6579b3a1-ef19-4fa6-9a4d-bbf2b773a07a}</destination>

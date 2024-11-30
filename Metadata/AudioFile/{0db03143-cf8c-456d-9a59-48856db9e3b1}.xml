@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{0db03143-cf8c-456d-9a59-48856db9e3b1}">
 		<property name="assetPath">
 			<value>music/mu_hub4.wav</value>

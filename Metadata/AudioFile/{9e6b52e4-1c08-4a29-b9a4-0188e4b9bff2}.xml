@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9e6b52e4-1c08-4a29-b9a4-0188e4b9bff2}">
 		<property name="assetPath">
 			<value>sfx/shotgunload.wav</value>

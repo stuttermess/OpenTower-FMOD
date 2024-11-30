@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4bf118b7-ad84-4e5e-98b1-98ca605596b8}">
-		<property name="note" />
 		<property name="name">
 			<value>open</value>
 		</property>
@@ -88,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{8eceab9b-30ae-4651-98b4-7957684ed156}">
 		<relationship name="modules">
-			<destination>{16659201-3846-41ac-874a-302adf8e3f0a}</destination>
 			<destination>{214e662c-7bc0-42b5-9273-4276f4f933fd}</destination>
+			<destination>{16659201-3846-41ac-874a-302adf8e3f0a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{26c51ef4-8515-4a2a-9eb4-ec538ce679ab}">

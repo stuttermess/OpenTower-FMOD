@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9fe164e7-59d8-4a06-8df2-66ba08704562}">
 		<property name="assetPath">
 			<value>music/DISTASTEFUL_ANCHOVI_JC_RE-EDIT_v5c.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d8626240-6592-48d5-a35f-d0d1df47243e}">
 		<property name="name">
 			<value>gotsupertaunt</value>

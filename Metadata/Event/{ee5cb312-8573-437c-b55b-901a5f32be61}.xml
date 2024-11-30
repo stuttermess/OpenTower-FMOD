@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ee5cb312-8573-437c-b55b-901a5f32be61}">
 		<property name="name">
 			<value>windloop</value>

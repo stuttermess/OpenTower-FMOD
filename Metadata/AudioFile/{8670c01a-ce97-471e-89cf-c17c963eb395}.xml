@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8670c01a-ce97-471e-89cf-c17c963eb395}">
 		<property name="assetPath">
 			<value>sfx/noisejetpackstart.wav</value>

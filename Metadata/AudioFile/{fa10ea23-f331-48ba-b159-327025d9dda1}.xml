@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fa10ea23-f331-48ba-b159-327025d9dda1}">
 		<property name="assetPath">
 			<value>sfx/noiseballoon.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4b8fd936-e34b-4ad5-898c-38ac574b815f}">
 		<property name="assetPath">
 			<value>music/Unearthly_Blues.wav</value>

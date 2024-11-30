@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b5358e43-07b8-485d-8a6f-05fe13b93f6c}">
 		<property name="name">
 			<value>thevigilantesfavoritesongthathelistenstowhenhedoesit</value>
@@ -64,8 +64,8 @@
 	<object class="MarkerTrack" id="{d905d568-39d9-4ee6-9a41-fc50a863d37e}" />
 	<object class="GroupTrack" id="{8b208187-60f4-48b0-89eb-d380f75dd87d}">
 		<relationship name="modules">
-			<destination>{0723674a-7107-4cbc-8233-68a5a1f58dfd}</destination>
 			<destination>{591a7463-fdb8-43d9-a475-086c36b6406d}</destination>
+			<destination>{0723674a-7107-4cbc-8233-68a5a1f58dfd}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{12e0bd33-4113-4927-8d49-69d3107803b9}</destination>
@@ -97,6 +97,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a8dfcc6f-7a70-49f0-8407-e686fcfb557e}" />
+	<object class="SingleSound" id="{591a7463-fdb8-43d9-a475-086c36b6406d}">
+		<property name="length">
+			<value>15.512857142857143</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{8bcc1838-5783-4e6d-9356-25f4894d5c84}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{0723674a-7107-4cbc-8233-68a5a1f58dfd}">
 		<property name="start">
 			<value>15.512857142857143</value>
@@ -106,14 +114,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{1c6761c7-cd9f-4175-9cb4-c33365a23dbc}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{591a7463-fdb8-43d9-a475-086c36b6406d}">
-		<property name="length">
-			<value>15.512857142857143</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{8bcc1838-5783-4e6d-9356-25f4894d5c84}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{12e0bd33-4113-4927-8d49-69d3107803b9}">

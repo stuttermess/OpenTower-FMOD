@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8fefc210-2724-4b19-afec-29de15e06a57}">
 		<property name="name">
 			<value>oldruin</value>
@@ -73,8 +73,8 @@
 	<object class="GroupTrack" id="{6e312f94-5fdc-4a5b-8587-d715d36c38ea}">
 		<relationship name="modules">
 			<destination>{749e4ddd-0a79-45d7-b3dd-053149359bca}</destination>
-			<destination>{2509c5db-988b-4727-b6fa-076e2533c425}</destination>
 			<destination>{3b18cd63-44d8-4a50-9d61-b8442469e472}</destination>
+			<destination>{2509c5db-988b-4727-b6fa-076e2533c425}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3a6e3fec-24e4-41f7-8a6e-057260fb6711}</destination>
@@ -142,6 +142,11 @@
 			<destination>{fb4079f0-98c0-40ac-bff6-ad76b1b43e31}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionDestinationSound" id="{3b18cd63-44d8-4a50-9d61-b8442469e472}">
+		<property name="length">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="TransitionSourceSound" id="{2509c5db-988b-4727-b6fa-076e2533c425}">
 		<property name="length">
 			<value>2</value>
@@ -149,11 +154,6 @@
 		<relationship name="fadeOutCurve">
 			<destination>{7453875a-7571-42f0-b1ff-076bb1613a52}</destination>
 		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{3b18cd63-44d8-4a50-9d61-b8442469e472}">
-		<property name="length">
-			<value>2</value>
-		</property>
 	</object>
 	<object class="EventMixerGroup" id="{3a6e3fec-24e4-41f7-8a6e-057260fb6711}">
 		<property name="volume">

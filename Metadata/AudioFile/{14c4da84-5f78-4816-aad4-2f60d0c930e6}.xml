@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{14c4da84-5f78-4816-aad4-2f60d0c930e6}">
 		<property name="assetPath">
 			<value>sfx/ratdeflat2.wav</value>

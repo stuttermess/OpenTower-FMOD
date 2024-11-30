@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0d472b80-59de-4c7b-8d6c-7b0b585ae222}">
 		<property name="note">
 			<value>might be missing something</value>
@@ -115,9 +115,9 @@
 		<relationship name="modules">
 			<destination>{659fcf04-1736-45fb-9098-112682cbe7d0}</destination>
 			<destination>{2cff69dd-6f37-4712-90d9-8b3bcfb53224}</destination>
+			<destination>{9a49facc-f44c-448b-86f4-ee51c9bbc455}</destination>
 			<destination>{cbbf2f8f-864f-4327-99ac-81137ab49fe5}</destination>
 			<destination>{728c6cc6-d0b2-485e-a58a-8838d55a0b7b}</destination>
-			<destination>{9a49facc-f44c-448b-86f4-ee51c9bbc455}</destination>
 			<destination>{65d4eefa-1b0a-4126-a9b1-c316289ab8dd}</destination>
 		</relationship>
 	</object>
@@ -335,9 +335,9 @@
 			<destination>{b2bfffa8-1019-4ba7-96d7-2e8fde495c27}</destination>
 		</relationship>
 		<relationship name="automationPoints">
+			<destination>{04ac9609-e693-46ba-a807-8b5d431a39ba}</destination>
 			<destination>{1f82f9e8-4d76-4c0c-bdb6-6ee65a45fa5e}</destination>
 			<destination>{ae952a43-16f9-4564-a173-434bb8dbfde5}</destination>
-			<destination>{04ac9609-e693-46ba-a807-8b5d431a39ba}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a4300ad9-c525-40a9-89da-201641c9489b}" />
@@ -358,6 +358,14 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3ac8dca7-3a00-4a8b-bd7b-a903d6e1bf53}" />
+	<object class="AutomationPoint" id="{04ac9609-e693-46ba-a807-8b5d431a39ba}">
+		<property name="position">
+			<value>0.85999999999999999</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{1f82f9e8-4d76-4c0c-bdb6-6ee65a45fa5e}">
 		<property name="position">
 			<value>0</value>
@@ -372,14 +380,6 @@
 		</property>
 		<property name="value">
 			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{04ac9609-e693-46ba-a807-8b5d431a39ba}">
-		<property name="position">
-			<value>0.85999999999999999</value>
-		</property>
-		<property name="value">
-			<value>4</value>
 		</property>
 	</object>
 </objects>

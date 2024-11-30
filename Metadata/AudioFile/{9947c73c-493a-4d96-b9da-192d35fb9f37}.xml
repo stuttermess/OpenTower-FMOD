@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9947c73c-493a-4d96-b9da-192d35fb9f37}">
 		<property name="assetPath">
 			<value>sfx/elevatorsqueak2.wav</value>

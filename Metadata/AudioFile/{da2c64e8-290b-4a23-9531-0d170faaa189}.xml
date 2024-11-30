@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{da2c64e8-290b-4a23-9531-0d170faaa189}">
 		<property name="assetPath">
 			<value>sfx/LOSE_RACE.wav</value>

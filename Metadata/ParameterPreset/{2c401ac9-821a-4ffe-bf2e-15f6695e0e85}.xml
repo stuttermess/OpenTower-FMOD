@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{2c401ac9-821a-4ffe-bf2e-15f6695e0e85}">
 		<property name="name">
 			<value>sfxVolume</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{74462279-d7ed-4a19-bb66-5bde52e7792c}">
 		<property name="name">
 			<value>encore</value>

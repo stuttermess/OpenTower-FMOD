@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fe672338-da9d-462f-b9b5-7c42176533f3}">
 		<property name="assetPath">
 			<value>sfx/Pizza_Tower_-_Pizza_Pie-ing_slight_remaster.wav</value>

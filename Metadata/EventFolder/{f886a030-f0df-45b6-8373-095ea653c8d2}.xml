@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{f886a030-f0df-45b6-8373-095ea653c8d2}">
 		<property name="name">
 			<value>pizzaface</value>

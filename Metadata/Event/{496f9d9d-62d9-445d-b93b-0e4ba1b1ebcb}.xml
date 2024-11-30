@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{496f9d9d-62d9-445d-b93b-0e4ba1b1ebcb}">
 		<property name="name">
 			<value>machslideboost</value>

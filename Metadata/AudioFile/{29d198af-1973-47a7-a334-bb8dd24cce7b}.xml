@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{29d198af-1973-47a7-a334-bb8dd24cce7b}">
 		<property name="assetPath">
 			<value>sfx/icebreak3.wav</value>

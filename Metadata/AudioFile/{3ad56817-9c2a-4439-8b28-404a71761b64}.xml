@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3ad56817-9c2a-4439-8b28-404a71761b64}">
 		<property name="assetPath">
 			<value>sfx/Kashing.wav</value>

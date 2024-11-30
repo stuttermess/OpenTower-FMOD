@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f261d8b5-f53a-465a-99b7-af3255d025fd}">
 		<property name="name">
 			<value>dragonlair</value>

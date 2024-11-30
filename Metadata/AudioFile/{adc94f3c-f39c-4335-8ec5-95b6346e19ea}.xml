@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{adc94f3c-f39c-4335-8ec5-95b6346e19ea}">
 		<property name="assetPath">
 			<value>sfx/computerswitch.wav</value>

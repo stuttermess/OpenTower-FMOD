@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8dbae95f-2625-4210-ac16-6e721710b73d}">
 		<property name="assetPath">
 			<value>sfx/Detransfo.wav</value>

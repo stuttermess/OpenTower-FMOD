@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5db64371-eca0-47dd-8a89-3b49624fea8f}">
 		<property name="assetPath">
 			<value>sfx/uppercut2.wav</value>

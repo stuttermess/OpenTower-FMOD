@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2aac261c-3c51-4c35-b16f-922a225f51d6}">
 		<property name="assetPath">
 			<value>sfx/sfx_knightsword.wav</value>

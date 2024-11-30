@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e360e46a-137a-4289-ab11-0b926e3a7ffe}">
 		<property name="name">
 			<value>piranhabite</value>

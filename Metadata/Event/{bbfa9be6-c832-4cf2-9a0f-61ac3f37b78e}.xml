@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bbfa9be6-c832-4cf2-9a0f-61ac3f37b78e}">
 		<property name="name">
 			<value>toppinhelp</value>

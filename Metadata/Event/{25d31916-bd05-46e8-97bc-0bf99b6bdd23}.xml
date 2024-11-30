@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{25d31916-bd05-46e8-97bc-0bf99b6bdd23}">
 		<property name="name">
 			<value>finalhallway</value>

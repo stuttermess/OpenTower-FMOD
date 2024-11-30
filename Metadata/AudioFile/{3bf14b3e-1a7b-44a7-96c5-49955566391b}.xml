@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3bf14b3e-1a7b-44a7-96c5-49955566391b}">
 		<property name="assetPath">
 			<value>sfx/burp.wav</value>

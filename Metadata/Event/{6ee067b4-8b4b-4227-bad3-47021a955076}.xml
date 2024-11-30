@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6ee067b4-8b4b-4227-bad3-47021a955076}">
 		<property name="name">
 			<value>superjumpcancel</value>
@@ -97,8 +97,8 @@
 	<object class="Timeline" id="{d658051c-1b8e-4ff3-9757-4ab9c27f3c13}">
 		<relationship name="modules">
 			<destination>{f49c226d-3d2e-44e4-8e7a-82d603aca8d3}</destination>
-			<destination>{748eacf8-a69d-410b-9bdb-c20baa57d1dc}</destination>
 			<destination>{9d5152b1-9a71-4f3c-b159-ad0d542e5fc0}</destination>
+			<destination>{748eacf8-a69d-410b-9bdb-c20baa57d1dc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{45d4b0f9-f2e6-4b54-8d02-5dd5c0bed46e}">

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{45cb1be5-1706-4e31-a89f-7068957ca7a3}">
-		<property name="note" />
 		<property name="name">
 			<value>finale_pizzahead</value>
 		</property>
@@ -88,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{34985da3-e8e6-40db-9a42-7809d0e65176}">
 		<relationship name="modules">
-			<destination>{edca117d-0279-4a34-bd12-d061c1a0e36f}</destination>
 			<destination>{cd8b165b-25e6-414c-bf93-a797885a7e65}</destination>
+			<destination>{edca117d-0279-4a34-bd12-d061c1a0e36f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{034f36df-0005-4fb8-b117-67ede3f75ed4}">

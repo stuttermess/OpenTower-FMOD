@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{dcd64278-8157-44c2-84be-44976e99ef72}">
 		<property name="name">
 			<value>peppinohouse</value>
@@ -169,8 +169,8 @@
 			<destination>{c9c7978b-6640-4951-9f9c-c84b396851be}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{33c534c7-462b-44ff-bc12-2b9e13c35a07}</destination>
 			<destination>{29437acf-3550-4005-ae26-955edf8178a0}</destination>
+			<destination>{33c534c7-462b-44ff-bc12-2b9e13c35a07}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f15153d5-87a7-4570-b084-9fe86efe8a5e}" />
@@ -192,20 +192,20 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{7af5749d-08cd-47eb-875f-9d5405903d39}" />
-	<object class="AutomationPoint" id="{33c534c7-462b-44ff-bc12-2b9e13c35a07}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{29437acf-3550-4005-ae26-955edf8178a0}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{33c534c7-462b-44ff-bc12-2b9e13c35a07}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 </objects>

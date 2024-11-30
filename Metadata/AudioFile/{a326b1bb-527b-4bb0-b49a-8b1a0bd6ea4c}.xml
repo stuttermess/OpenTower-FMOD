@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a326b1bb-527b-4bb0-b49a-8b1a0bd6ea4c}">
 		<property name="assetPath">
 			<value>sfx/bossgaterise.wav</value>

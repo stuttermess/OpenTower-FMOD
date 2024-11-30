@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{43c5670b-63e4-4072-8322-5561245bc51e}">
 		<property name="assetPath">
 			<value>sfx/rockbreak.wav</value>

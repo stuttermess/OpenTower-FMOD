@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{557e226f-cf90-499e-8b77-9dcb576a127f}">
-		<property name="note" />
 		<property name="name">
 			<value>donkeydead</value>
 		</property>
@@ -369,9 +368,9 @@
 			<destination>{b7676f42-f95a-49d2-9f72-dc636ec10bbb}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{6ffbade4-ed99-497d-a75f-785b28b1c59a}</destination>
-			<destination>{8b8c6efb-b761-4537-b14d-e66f961fc965}</destination>
 			<destination>{16bd972a-9fc8-492f-a429-6b3851934212}</destination>
+			<destination>{8b8c6efb-b761-4537-b14d-e66f961fc965}</destination>
+			<destination>{6ffbade4-ed99-497d-a75f-785b28b1c59a}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{9425e9ca-0831-49dc-875e-88069f45d239}">
@@ -430,15 +429,12 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{08cb36b9-9df0-4858-9bb7-d058a3f5d46f}" />
-	<object class="AutomationPoint" id="{6ffbade4-ed99-497d-a75f-785b28b1c59a}">
+	<object class="AutomationPoint" id="{16bd972a-9fc8-492f-a429-6b3851934212}">
 		<property name="position">
-			<value>0</value>
+			<value>0.85999999999999999</value>
 		</property>
 		<property name="value">
-			<value>0</value>
-		</property>
-		<property name="curveShape">
-			<value>0.121341705</value>
+			<value>-4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8b8c6efb-b761-4537-b14d-e66f961fc965}">
@@ -449,12 +445,15 @@
 			<value>7</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{16bd972a-9fc8-492f-a429-6b3851934212}">
+	<object class="AutomationPoint" id="{6ffbade4-ed99-497d-a75f-785b28b1c59a}">
 		<property name="position">
-			<value>0.85999999999999999</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.121341705</value>
 		</property>
 	</object>
 </objects>

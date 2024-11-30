@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{80b7e034-6446-47e9-99d4-c8695d1665fc}">
 		<property name="assetPath">
 			<value>sfx/sfx_collectgiantpizza.wav</value>

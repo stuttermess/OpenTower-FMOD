@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6edb7c06-d0b3-44fd-82db-0c76cd4fa57a}">
 		<property name="name">
 			<value>golfpunch</value>
@@ -77,8 +77,8 @@
 	</object>
 	<object class="Timeline" id="{322cc066-235d-4c35-b94c-64cfaa133407}">
 		<relationship name="modules">
-			<destination>{b0138bfd-a415-448c-86fa-37cf8426e12d}</destination>
 			<destination>{137c3c91-ea55-40b7-9fd4-afa79c521386}</destination>
+			<destination>{b0138bfd-a415-448c-86fa-37cf8426e12d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fdc4a367-7585-409b-9b45-050d55e42571}">

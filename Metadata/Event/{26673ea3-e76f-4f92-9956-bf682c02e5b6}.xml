@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{26673ea3-e76f-4f92-9956-bf682c02e5b6}">
 		<property name="name">
 			<value>noisenegative</value>
@@ -82,9 +82,9 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{aca84a3f-e72c-4f2f-b8b2-6fa43c8ab5d4}</destination>
-			<destination>{9f23dffe-a05c-4857-85eb-2b6a651ff5fe}</destination>
 			<destination>{f34b8271-fc91-46db-9da0-11d2e5cb2233}</destination>
 			<destination>{17f4ef23-5f40-4420-960f-34ebbd3503a8}</destination>
+			<destination>{9f23dffe-a05c-4857-85eb-2b6a651ff5fe}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{15d05dab-5089-4e4e-83f1-5f3f47b812a1}">
@@ -178,20 +178,6 @@
 			<destination>{bdcbec9b-ff74-4ee8-bcbc-2267520de28f}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionMarker" id="{9f23dffe-a05c-4857-85eb-2b6a651ff5fe}">
-		<property name="position">
-			<value>1.4497916666666666</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{f40cd62f-66ed-4499-9cac-c7b1694b8546}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{02519bb6-461f-4a28-8f3e-890dc916d7f8}</destination>
-		</relationship>
-		<relationship name="destination">
-			<destination>{17f4ef23-5f40-4420-960f-34ebbd3503a8}</destination>
-		</relationship>
-	</object>
 	<object class="NamedMarker" id="{f34b8271-fc91-46db-9da0-11d2e5cb2233}">
 		<property name="position">
 			<value>2.4000000000000004</value>
@@ -218,6 +204,20 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{02519bb6-461f-4a28-8f3e-890dc916d7f8}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{9f23dffe-a05c-4857-85eb-2b6a651ff5fe}">
+		<property name="position">
+			<value>1.4497916666666666</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{f40cd62f-66ed-4499-9cac-c7b1694b8546}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{02519bb6-461f-4a28-8f3e-890dc916d7f8}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{17f4ef23-5f40-4420-960f-34ebbd3503a8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{14e9f96d-f57d-4f59-b83c-f38e97a116d9}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{993a6ed4-f8ab-4b35-9238-d09c7aac99ce}">
 		<property name="name">
 			<value>wallbounceland</value>

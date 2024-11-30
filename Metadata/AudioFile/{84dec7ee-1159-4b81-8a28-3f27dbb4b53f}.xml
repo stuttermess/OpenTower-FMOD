@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{84dec7ee-1159-4b81-8a28-3f27dbb4b53f}">
 		<property name="assetPath">
 			<value>music/Final_The_Runner_10_15_2023_Halloween_Event_2023(1).wav</value>

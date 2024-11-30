@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{0994d031-1a6e-4b92-b987-c04567936ac9}">
 		<property name="assetPath">
 			<value>sfx/fakepepsuperjump1.wav</value>

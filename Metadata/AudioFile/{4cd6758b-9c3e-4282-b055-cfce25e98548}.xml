@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4cd6758b-9c3e-4282-b055-cfce25e98548}">
 		<property name="assetPath">
 			<value>modded/sound/instinct/instinct8.wav</value>

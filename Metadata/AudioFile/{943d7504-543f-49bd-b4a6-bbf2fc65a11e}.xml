@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{943d7504-543f-49bd-b4a6-bbf2fc65a11e}">
 		<property name="assetPath">
 			<value>sfx/enemyrarescream2.wav</value>

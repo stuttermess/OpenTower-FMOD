@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f44f97c8-3f9b-450c-9753-858eb25e0d8f}">
 		<property name="name">
 			<value>pepgustavointro</value>
@@ -71,8 +71,8 @@
 	<object class="MarkerTrack" id="{153e3de4-4c36-493c-8453-c95fd8773597}" />
 	<object class="GroupTrack" id="{6d57d6d1-e3a3-40d6-83d2-1f3238a05c3f}">
 		<relationship name="modules">
-			<destination>{8128b74b-b3bc-4103-b5c5-53732b93e857}</destination>
 			<destination>{9d6bf063-b6d1-45e2-8d6f-65311567b151}</destination>
+			<destination>{8128b74b-b3bc-4103-b5c5-53732b93e857}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{349219f3-0d9e-41e9-aae3-368a73cc3038}</destination>
@@ -118,17 +118,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{eef9ed2c-4f05-418c-b664-0d0a091a7eae}" />
-	<object class="SingleSound" id="{8128b74b-b3bc-4103-b5c5-53732b93e857}">
-		<property name="length">
-			<value>10.446583333333333</value>
-		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{7162f50c-f3c4-40df-a47e-7d70d7043b0c}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{9d6bf063-b6d1-45e2-8d6f-65311567b151}">
 		<property name="start">
 			<value>15</value>
@@ -144,6 +133,17 @@
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{c00ed663-487c-4c83-a969-3a5a5912ff2c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{8128b74b-b3bc-4103-b5c5-53732b93e857}">
+		<property name="length">
+			<value>10.446583333333333</value>
+		</property>
+		<property name="volume">
+			<value>3</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{7162f50c-f3c4-40df-a47e-7d70d7043b0c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{349219f3-0d9e-41e9-aae3-368a73cc3038}">

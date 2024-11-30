@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{660187fb-81a7-4fb9-84a0-a0d0b05d8ad2}">
-		<property name="note" />
 		<property name="name">
 			<value>turn</value>
 		</property>
@@ -88,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{2760292e-4b3b-4f3a-8c44-92ac9b99e5d2}">
 		<relationship name="modules">
-			<destination>{3ecb1e6d-8e10-4452-9d23-087a428c5728}</destination>
 			<destination>{0505afb1-b66a-4c78-a721-d262ae4e3868}</destination>
+			<destination>{3ecb1e6d-8e10-4452-9d23-087a428c5728}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{24a00bef-5b24-428e-a992-6f18a3202876}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e49258b8-25c1-4677-b090-447df577ffbd}">
 		<property name="assetPath">
 			<value>sfx/supernoise.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6d878d18-0344-4d82-adfe-d0e536207dca}">
 		<property name="assetPath">
 			<value>sfx/sfx_superjumprelease.wav</value>

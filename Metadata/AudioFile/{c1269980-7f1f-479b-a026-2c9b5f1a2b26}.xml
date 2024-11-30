@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c1269980-7f1f-479b-a026-2c9b5f1a2b26}">
 		<property name="assetPath">
 			<value>modded/weenie ride/weenieride_distaste9.wav</value>

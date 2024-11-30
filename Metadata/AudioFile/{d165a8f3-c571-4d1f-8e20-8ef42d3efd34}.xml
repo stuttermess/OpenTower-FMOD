@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d165a8f3-c571-4d1f-8e20-8ef42d3efd34}">
 		<property name="assetPath">
 			<value>sfx/slipnslide8.wav</value>

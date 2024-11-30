@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{55ff41a3-5413-43fa-b016-8aeb817a6f07}">
 		<property name="assetPath">
 			<value>sfx/MortDead.wav</value>

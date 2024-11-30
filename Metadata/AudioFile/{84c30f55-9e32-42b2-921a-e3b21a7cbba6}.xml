@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{84c30f55-9e32-42b2-921a-e3b21a7cbba6}">
 		<property name="assetPath">
 			<value>modded/wudpeckersecret.ogg</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{079c68a9-77c1-4136-b8ac-c12f8b71bba5}">
 		<property name="assetPath">
 			<value>sfx/fakepepdeform.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{102fe1bd-1794-4d41-8fe1-84524883e76d}">
 		<property name="name">
 			<value>kiss</value>
@@ -43,8 +43,8 @@
 	</object>
 	<object class="MasterTrack" id="{681054bb-aad6-4475-8aa6-4ab1d4326eb7}">
 		<relationship name="modules">
-			<destination>{e04135c6-bde1-47c9-95ec-d3194fc0dd45}</destination>
 			<destination>{8ff592ab-3ffb-4fa6-9f94-7878a7a1ab6a}</destination>
+			<destination>{e04135c6-bde1-47c9-95ec-d3194fc0dd45}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a0a6018c-f1ad-41d6-a0c6-9513cf75a183}</destination>
@@ -105,15 +105,15 @@
 			<destination>{7d15b48b-5458-40cb-a930-277c880ca85a}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{e04135c6-bde1-47c9-95ec-d3194fc0dd45}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="TransitionDestinationSound" id="{8ff592ab-3ffb-4fa6-9f94-7878a7a1ab6a}">
 		<property name="start">
 			<value>0.19999999999999996</value>
 		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionSourceSound" id="{e04135c6-bde1-47c9-95ec-d3194fc0dd45}">
 		<property name="length">
 			<value>0</value>
 		</property>
@@ -254,10 +254,10 @@
 			<value>0.20000000000000001</value>
 		</property>
 		<relationship name="modules">
-			<destination>{3b29998d-ea34-4417-8b4e-d7ac63033efd}</destination>
-			<destination>{98b04ab3-3db9-4358-ba45-d6337fedb59c}</destination>
-			<destination>{e04135c6-bde1-47c9-95ec-d3194fc0dd45}</destination>
 			<destination>{8ff592ab-3ffb-4fa6-9f94-7878a7a1ab6a}</destination>
+			<destination>{3b29998d-ea34-4417-8b4e-d7ac63033efd}</destination>
+			<destination>{e04135c6-bde1-47c9-95ec-d3194fc0dd45}</destination>
+			<destination>{98b04ab3-3db9-4358-ba45-d6337fedb59c}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{471ea444-1bb3-47a0-8cb2-22b27a5bb0b5}">

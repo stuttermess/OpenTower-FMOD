@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f2178566-43d1-4caf-8080-c66e26a447c1}">
 		<property name="name">
 			<value>cardcollect</value>

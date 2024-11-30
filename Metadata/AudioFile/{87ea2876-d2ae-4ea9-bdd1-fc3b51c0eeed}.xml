@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{87ea2876-d2ae-4ea9-bdd1-fc3b51c0eeed}">
 		<property name="assetPath">
 			<value>sfx/blackoutpunch.wav</value>

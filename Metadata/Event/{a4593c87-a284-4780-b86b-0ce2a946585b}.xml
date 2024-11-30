@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a4593c87-a284-4780-b86b-0ce2a946585b}">
 		<property name="name">
 			<value>fakepepnegative</value>

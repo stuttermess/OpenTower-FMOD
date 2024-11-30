@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4b7e72d0-4861-41be-9e35-07862d9ad06f}">
 		<property name="name">
 			<value>lap2noise</value>

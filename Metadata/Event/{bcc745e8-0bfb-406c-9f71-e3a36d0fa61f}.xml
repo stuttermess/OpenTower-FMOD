@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bcc745e8-0bfb-406c-9f71-e3a36d0fa61f}">
 		<property name="name">
 			<value>uziprep</value>

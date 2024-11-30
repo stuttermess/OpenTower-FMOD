@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{331c7f10-45ea-41d6-99bd-145308f4b527}">
 		<property name="name">
 			<value>start</value>
@@ -83,9 +83,9 @@
 			<destination>{64132654-b09a-4aa5-b47a-35d46e35019a}</destination>
 		</relationship>
 		<relationship name="markers">
+			<destination>{2f5b420e-dec7-4d52-be3e-0a1084776088}</destination>
 			<destination>{d8aeb01f-4902-48ba-9b76-8d1f81600eae}</destination>
 			<destination>{28206695-0001-440e-b668-77589a82e0d0}</destination>
-			<destination>{2f5b420e-dec7-4d52-be3e-0a1084776088}</destination>
 			<destination>{f09535eb-79f5-4447-b2fa-c2b6a53174a5}</destination>
 		</relationship>
 	</object>
@@ -142,6 +142,20 @@
 			<destination>{4b80f3ab-9c7c-4d8d-a6ba-86839a7a6eda}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionMarker" id="{2f5b420e-dec7-4d52-be3e-0a1084776088}">
+		<property name="position">
+			<value>2.3123333333333331</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{3f0316c0-b08f-4a79-b33d-b5f7f42281cf}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8184392d-bc7b-4e74-9866-155bfda859eb}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{28206695-0001-440e-b668-77589a82e0d0}</destination>
+		</relationship>
+	</object>
 	<object class="NamedMarker" id="{d8aeb01f-4902-48ba-9b76-8d1f81600eae}">
 		<property name="position">
 			<value>2.7000000000000002</value>
@@ -168,20 +182,6 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{8184392d-bc7b-4e74-9866-155bfda859eb}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionMarker" id="{2f5b420e-dec7-4d52-be3e-0a1084776088}">
-		<property name="position">
-			<value>2.3123333333333331</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{3f0316c0-b08f-4a79-b33d-b5f7f42281cf}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{8184392d-bc7b-4e74-9866-155bfda859eb}</destination>
-		</relationship>
-		<relationship name="destination">
-			<destination>{28206695-0001-440e-b668-77589a82e0d0}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{f09535eb-79f5-4447-b2fa-c2b6a53174a5}">

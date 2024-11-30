@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{761a2bef-41aa-4509-9814-ae979eae00a4}">
-		<property name="note" />
 		<property name="name">
 			<value>tvbounce</value>
 		</property>
@@ -97,9 +96,9 @@
 	</object>
 	<object class="Timeline" id="{00c5818a-0d89-4934-b850-a0eda02cac59}">
 		<relationship name="modules">
-			<destination>{e5896cc9-29a5-4969-b3b1-f341ff274791}</destination>
-			<destination>{786da186-708b-487b-9bb4-c33035f4d8ce}</destination>
 			<destination>{29597f07-6e0f-4eda-a675-8c0c193295fc}</destination>
+			<destination>{786da186-708b-487b-9bb4-c33035f4d8ce}</destination>
+			<destination>{e5896cc9-29a5-4969-b3b1-f341ff274791}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{abae5504-e608-4cc6-8ba7-3cb6e9d8d365}">

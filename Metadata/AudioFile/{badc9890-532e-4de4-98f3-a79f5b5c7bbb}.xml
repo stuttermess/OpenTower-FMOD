@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{badc9890-532e-4de4-98f3-a79f5b5c7bbb}">
 		<property name="assetPath">
 			<value>modded/encore/medieval_encore.ogg</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{58665166-80cd-4cbd-9d8d-d526cc485333}">
 		<property name="assetPath">
 			<value>sfx/ratgrab2.wav</value>

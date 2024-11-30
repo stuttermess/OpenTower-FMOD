@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e7c83a00-593a-4a40-9c4d-b8f2637da36b}">
 		<property name="name">
 			<value>graveyard</value>
@@ -45,8 +45,8 @@
 			<destination>{a79edf1e-930d-4990-8b29-e34050711f06}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{377926a2-6513-4c5c-9adf-f56ef8403da7}</destination>
 			<destination>{5a982a9d-1cb8-403b-b8b4-e1849ab6bff0}</destination>
+			<destination>{377926a2-6513-4c5c-9adf-f56ef8403da7}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{760ee438-c3e4-4fd3-bc85-54522e24028a}</destination>
@@ -106,15 +106,15 @@
 			<destination>{40d8156e-be72-4f40-be5d-0c876625791d}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{377926a2-6513-4c5c-9adf-f56ef8403da7}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="TransitionDestinationSound" id="{5a982a9d-1cb8-403b-b8b4-e1849ab6bff0}">
 		<property name="start">
 			<value>0.5</value>
 		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionSourceSound" id="{377926a2-6513-4c5c-9adf-f56ef8403da7}">
 		<property name="length">
 			<value>0</value>
 		</property>
@@ -229,10 +229,10 @@
 			<value>0.5</value>
 		</property>
 		<relationship name="modules">
+			<destination>{5a982a9d-1cb8-403b-b8b4-e1849ab6bff0}</destination>
 			<destination>{d856ed87-dae6-4604-ae66-72b8868e7772}</destination>
 			<destination>{4564639d-5518-4f23-adb0-520c2a37dc34}</destination>
 			<destination>{377926a2-6513-4c5c-9adf-f56ef8403da7}</destination>
-			<destination>{5a982a9d-1cb8-403b-b8b4-e1849ab6bff0}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{39abf593-9472-45a9-9759-a17bd6ed2d3a}">

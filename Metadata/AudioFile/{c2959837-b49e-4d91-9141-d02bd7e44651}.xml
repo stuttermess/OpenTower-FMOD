@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c2959837-b49e-4d91-9141-d02bd7e44651}">
 		<property name="assetPath">
 			<value>modded/waiting/waiting_mansion.wav</value>

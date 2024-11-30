@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3a30c6fe-983f-4a81-baa6-73bb106ef43c}">
 		<property name="assetPath">
 			<value>modded/vigilante/63 BONUS For A Few Toppings More.mp3</value>

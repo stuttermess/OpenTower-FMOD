@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{102edf3f-38ac-43d1-b397-acad4dee5a2b}">
 		<property name="name">
 			<value>grinch</value>

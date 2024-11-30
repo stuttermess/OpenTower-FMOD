@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{51c7f115-b286-414c-a34b-b1cdb02d702e}">
 		<property name="name">
 			<value>downloaded</value>
@@ -87,9 +87,9 @@
 	</object>
 	<object class="Timeline" id="{3c36fef0-289c-4041-a049-214b9ba44b44}">
 		<relationship name="modules">
-			<destination>{56443563-9f7b-4787-a445-bd32f8973e0d}</destination>
 			<destination>{8f1140b9-f53c-4252-be33-ea3ffebe946b}</destination>
 			<destination>{37b3a11c-6e8c-4def-8402-3cef830f1d94}</destination>
+			<destination>{56443563-9f7b-4787-a445-bd32f8973e0d}</destination>
 			<destination>{3798ce05-8306-4430-9617-5b20059798ed}</destination>
 		</relationship>
 	</object>

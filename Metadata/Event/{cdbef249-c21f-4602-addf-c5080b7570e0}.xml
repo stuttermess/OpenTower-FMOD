@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cdbef249-c21f-4602-addf-c5080b7570e0}">
 		<property name="name">
 			<value>vigiangry</value>
@@ -83,8 +83,8 @@
 	</object>
 	<object class="Timeline" id="{fd9c9945-2617-492c-8065-505df6a09316}">
 		<relationship name="modules">
-			<destination>{98abe363-125d-419f-99c7-070668c783ad}</destination>
 			<destination>{b3848fae-e9a6-4f47-a6e3-728d3667e20d}</destination>
+			<destination>{98abe363-125d-419f-99c7-070668c783ad}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{db08b448-58e7-4963-b8a7-a97c945952b3}">
@@ -222,9 +222,9 @@
 			<destination>{4907d289-e8c9-4840-8350-3579f63d573d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
+			<destination>{a1014a4f-a88a-4f32-8857-f48fb7e3fd95}</destination>
 			<destination>{e963e0a8-6594-452e-aafb-ee1466c52420}</destination>
 			<destination>{32e47c27-aec1-4e62-b656-71e12e35df32}</destination>
-			<destination>{a1014a4f-a88a-4f32-8857-f48fb7e3fd95}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{56a9c42b-faca-41e3-89a6-9dd6cd50f30b}" />
@@ -241,9 +241,9 @@
 			<destination>{4907d289-e8c9-4840-8350-3579f63d573d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
+			<destination>{aa6dcfb2-4cad-4770-a0a3-ed2a32485e7f}</destination>
 			<destination>{10d89af5-ae68-43cf-8256-086c9a6c01c3}</destination>
 			<destination>{9fa4e4f8-b9b2-4ce9-8851-3d4eea0aec2e}</destination>
-			<destination>{aa6dcfb2-4cad-4770-a0a3-ed2a32485e7f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1a97875e-8bcd-4448-a325-f0e3facd5a68}" />
@@ -254,6 +254,14 @@
 		<relationship name="modulators">
 			<destination>{a819a2c0-7a87-4bb7-88b4-14cce9f68c94}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{a1014a4f-a88a-4f32-8857-f48fb7e3fd95}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{e963e0a8-6594-452e-aafb-ee1466c52420}">
 		<property name="position">
@@ -271,20 +279,20 @@
 			<value>-6</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{a1014a4f-a88a-4f32-8857-f48fb7e3fd95}">
-		<property name="position">
-			<value>2</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{ae5f3a43-4445-4eb2-be64-b5fec551f325}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
 			<value>26.5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{aa6dcfb2-4cad-4770-a0a3-ed2a32485e7f}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{10d89af5-ae68-43cf-8256-086c9a6c01c3}">
@@ -301,14 +309,6 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{aa6dcfb2-4cad-4770-a0a3-ed2a32485e7f}">
-		<property name="position">
-			<value>2</value>
-		</property>
-		<property name="value">
-			<value>-6</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{a819a2c0-7a87-4bb7-88b4-14cce9f68c94}">

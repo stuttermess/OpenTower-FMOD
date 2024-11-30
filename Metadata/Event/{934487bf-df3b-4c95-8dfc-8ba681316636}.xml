@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{934487bf-df3b-4c95-8dfc-8ba681316636}">
 		<property name="name">
 			<value>statuedestroy</value>
@@ -87,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{82ffb61e-37ea-4525-b0e5-5f6acf9872a9}">
 		<relationship name="modules">
-			<destination>{f720b508-e470-4120-85e4-edc20c732a3a}</destination>
 			<destination>{b9c590f7-4584-4d9a-a7e9-cb02c384d806}</destination>
+			<destination>{f720b508-e470-4120-85e4-edc20c732a3a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{af972454-adbb-418b-8081-26a3916840f8}">

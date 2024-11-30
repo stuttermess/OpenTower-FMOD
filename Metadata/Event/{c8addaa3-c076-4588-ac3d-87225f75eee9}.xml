@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c8addaa3-c076-4588-ac3d-87225f75eee9}">
-		<property name="note" />
 		<property name="name">
 			<value>jump</value>
 		</property>
@@ -88,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{f87648dd-cb8e-48b9-b3c4-2c50f32d4228}">
 		<relationship name="modules">
-			<destination>{d68dd456-2ea1-4572-9328-4463cbcf0e2b}</destination>
 			<destination>{4904f44d-bd5a-4875-95da-b477435eb37f}</destination>
+			<destination>{d68dd456-2ea1-4572-9328-4463cbcf0e2b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cc0efa72-d3ce-49d1-8295-bc6f274df5a6}">

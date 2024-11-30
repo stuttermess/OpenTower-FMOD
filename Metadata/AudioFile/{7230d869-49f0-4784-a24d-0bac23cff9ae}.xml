@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7230d869-49f0-4784-a24d-0bac23cff9ae}">
 		<property name="assetPath">
 			<value>sfx/GHOST_SPEED_0.wav</value>

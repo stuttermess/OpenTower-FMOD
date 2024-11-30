@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{781b054a-f3e2-46f1-a7e1-8188047619c1}">
 		<property name="name">
 			<value>strongcold</value>
@@ -72,9 +72,9 @@
 	<object class="MarkerTrack" id="{a8145d9c-b3b1-476d-8fb8-8ec4d31abb72}" />
 	<object class="GroupTrack" id="{bbed9ef9-d0da-41cb-9c7b-27851abb95c7}">
 		<relationship name="modules">
+			<destination>{bb00131e-00b3-413b-b570-f10acea96eec}</destination>
 			<destination>{36162c45-d1ae-4ba4-ad41-0178975ed159}</destination>
 			<destination>{8ab964d9-6fc9-4139-93d6-8773e1368bf7}</destination>
-			<destination>{bb00131e-00b3-413b-b570-f10acea96eec}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{677872a7-faf3-428e-ac9a-67c4b3bdb17f}</destination>
@@ -134,6 +134,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8360f883-9f6c-4459-9b65-ab407b7b28da}" />
+	<object class="TransitionDestinationSound" id="{bb00131e-00b3-413b-b570-f10acea96eec}">
+		<property name="length">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{36162c45-d1ae-4ba4-ad41-0178975ed159}">
 		<property name="length">
 			<value>135.13142857142856</value>
@@ -149,11 +154,6 @@
 		<relationship name="fadeOutCurve">
 			<destination>{37dce38f-e3ff-4c59-b1a0-c4a0843e2621}</destination>
 		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{bb00131e-00b3-413b-b570-f10acea96eec}">
-		<property name="length">
-			<value>2</value>
-		</property>
 	</object>
 	<object class="EventMixerGroup" id="{677872a7-faf3-428e-ac9a-67c4b3bdb17f}">
 		<property name="volume">
@@ -218,8 +218,8 @@
 			<value>2</value>
 		</property>
 		<relationship name="modules">
-			<destination>{8ab964d9-6fc9-4139-93d6-8773e1368bf7}</destination>
 			<destination>{bb00131e-00b3-413b-b570-f10acea96eec}</destination>
+			<destination>{8ab964d9-6fc9-4139-93d6-8773e1368bf7}</destination>
 			<destination>{b11df122-f7ce-4cc9-bf59-92e589ed21d3}</destination>
 			<destination>{a08f90e4-b0e8-4a56-b5f2-bff58f36f585}</destination>
 		</relationship>

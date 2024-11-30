@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{14bb0321-fce0-4263-bf63-3edfc9a24e68}">
 		<property name="assetPath">
 			<value>music/CHASE_THEME_INTRO.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8c6c318a-2edd-44e0-88e1-d81352654fba}">
 		<property name="assetPath">
 			<value>modded/cosmic clone/cosmicN2.ogg</value>

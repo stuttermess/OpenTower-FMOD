@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ae4eba90-f687-4c0b-9f34-c8490fc814e4}">
 		<property name="name">
 			<value>finale_outbomb</value>

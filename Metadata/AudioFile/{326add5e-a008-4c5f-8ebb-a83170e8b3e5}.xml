@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{326add5e-a008-4c5f-8ebb-a83170e8b3e5}">
 		<property name="assetPath">
 			<value>music/Pizza_Tower_OST_-_Bye_Bye_There.wav</value>

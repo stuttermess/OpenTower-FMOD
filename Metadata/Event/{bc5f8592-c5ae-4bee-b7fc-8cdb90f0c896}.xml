@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bc5f8592-c5ae-4bee-b7fc-8cdb90f0c896}">
 		<property name="name">
 			<value>noisette</value>
@@ -185,9 +185,9 @@
 			<value>0.5</value>
 		</property>
 		<relationship name="modules">
+			<destination>{e219497b-7e03-42be-8f0d-7e25b4b45292}</destination>
 			<destination>{64f064e3-56b6-465f-aee1-f7c21466acae}</destination>
 			<destination>{a40210bd-7292-4cd4-90e3-f9bee73b4621}</destination>
-			<destination>{e219497b-7e03-42be-8f0d-7e25b4b45292}</destination>
 			<destination>{2cea5127-3838-4f82-9fd4-c02b813e2ac2}</destination>
 		</relationship>
 	</object>

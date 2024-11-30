@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2dea0bc5-f108-4ac0-92c4-046ebaa0ab0f}">
 		<property name="name">
 			<value>snickchallenge</value>
@@ -81,8 +81,8 @@
 	</object>
 	<object class="Timeline" id="{c6183826-666e-428f-b039-0a7a3ad96e02}">
 		<relationship name="modules">
-			<destination>{a78f635c-29de-467c-b7ae-66cbb17a1248}</destination>
 			<destination>{e4541110-dfbe-4d07-9d51-b3eb79fa623a}</destination>
+			<destination>{a78f635c-29de-467c-b7ae-66cbb17a1248}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{ea698145-58c3-4a16-8c06-44bca53bff0a}</destination>

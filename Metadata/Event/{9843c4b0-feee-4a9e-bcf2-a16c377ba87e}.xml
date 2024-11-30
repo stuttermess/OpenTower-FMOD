@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9843c4b0-feee-4a9e-bcf2-a16c377ba87e}">
-		<property name="note" />
 		<property name="name">
 			<value>fireass</value>
 		</property>

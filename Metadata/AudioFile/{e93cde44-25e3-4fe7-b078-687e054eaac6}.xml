@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e93cde44-25e3-4fe7-b078-687e054eaac6}">
 		<property name="assetPath">
 			<value>sfx/peppermanartdude.wav</value>

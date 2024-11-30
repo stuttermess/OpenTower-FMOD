@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{6f4c08c3-10f2-4705-bdfc-2ac9980b96af}">
 		<property name="name">
 			<value>count</value>

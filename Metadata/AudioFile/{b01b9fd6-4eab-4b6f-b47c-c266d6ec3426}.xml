@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b01b9fd6-4eab-4b6f-b47c-c266d6ec3426}">
 		<property name="assetPath">
 			<value>music/mu_farmsecret.wav</value>

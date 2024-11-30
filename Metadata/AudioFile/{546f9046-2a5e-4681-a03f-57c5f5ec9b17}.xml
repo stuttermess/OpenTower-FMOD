@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{546f9046-2a5e-4681-a03f-57c5f5ec9b17}">
 		<property name="assetPath">
 			<value>sfx/mushroom1.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{d3673248-d5c8-498f-9450-e5f897e67721}">
 		<property name="name">
 			<value>swapmode</value>

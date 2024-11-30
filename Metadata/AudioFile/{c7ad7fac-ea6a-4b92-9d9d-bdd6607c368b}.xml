@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c7ad7fac-ea6a-4b92-9d9d-bdd6607c368b}">
 		<property name="assetPath">
 			<value>modded/weenie ride/weenieride_mayhem1.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{63a71d17-e6f6-4c09-b99f-63bfb3c061a7}">
 		<property name="note">
 			<value>audio 2 is wrong</value>
@@ -90,8 +90,8 @@
 	</object>
 	<object class="Timeline" id="{0068fff1-9aca-44a9-bcd7-8cddc0c24b9c}">
 		<relationship name="modules">
-			<destination>{26c78ed6-e8de-4889-852b-906bba015a70}</destination>
 			<destination>{1e1ef396-242a-459d-b1f5-affbf6267b84}</destination>
+			<destination>{26c78ed6-e8de-4889-852b-906bba015a70}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d130d19e-f259-4299-b0f5-270f30f6508f}">

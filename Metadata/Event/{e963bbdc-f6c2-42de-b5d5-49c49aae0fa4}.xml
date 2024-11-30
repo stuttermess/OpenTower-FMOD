@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e963bbdc-f6c2-42de-b5d5-49c49aae0fa4}">
 		<property name="name">
 			<value>sewersecret</value>
@@ -262,8 +262,8 @@
 			<destination>{208f2cc8-11e6-4946-a1b8-71bf14f0ae6d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{461f649c-f10a-456a-bd78-c70ca613391a}</destination>
 			<destination>{c046d915-2c1f-43bc-9e51-758986780ad7}</destination>
+			<destination>{461f649c-f10a-456a-bd78-c70ca613391a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b82c40d9-5eb5-49e3-b71e-903dd2b71405}" />
@@ -283,20 +283,20 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{461f649c-f10a-456a-bd78-c70ca613391a}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{c046d915-2c1f-43bc-9e51-758986780ad7}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>-3</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{461f649c-f10a-456a-bd78-c70ca613391a}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>

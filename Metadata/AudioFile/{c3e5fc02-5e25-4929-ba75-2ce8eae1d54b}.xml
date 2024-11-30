@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c3e5fc02-5e25-4929-ba75-2ce8eae1d54b}">
 		<property name="assetPath">
 			<value>sfx/vigi2.wav</value>

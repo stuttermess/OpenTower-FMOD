@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{00bff0e4-02a5-4261-98ae-55cc87571343}">
 		<property name="assetPath">
 			<value>sfx/barrelbump2.wav</value>

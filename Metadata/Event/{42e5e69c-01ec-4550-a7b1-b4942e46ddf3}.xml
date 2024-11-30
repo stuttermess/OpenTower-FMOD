@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{42e5e69c-01ec-4550-a7b1-b4942e46ddf3}">
 		<property name="name">
 			<value>moving</value>
@@ -219,9 +219,9 @@
 			<value>0.5</value>
 		</property>
 		<relationship name="modules">
+			<destination>{05e44473-1a3b-4e2a-8845-85ef5bfde079}</destination>
 			<destination>{d3164586-c5d1-449f-a4f9-dde0507726ec}</destination>
 			<destination>{6a35d290-7981-446a-a526-84739f62049f}</destination>
-			<destination>{05e44473-1a3b-4e2a-8845-85ef5bfde079}</destination>
 			<destination>{4ed5276b-3fec-4328-a82c-5288b2473c5a}</destination>
 		</relationship>
 	</object>

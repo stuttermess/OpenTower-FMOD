@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d83a8353-d43a-4d13-a461-309f2d45b71a}">
 		<property name="assetPath">
 			<value>sfx/Voice-20.wav</value>

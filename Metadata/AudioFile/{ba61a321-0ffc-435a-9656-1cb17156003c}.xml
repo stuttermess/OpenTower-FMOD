@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ba61a321-0ffc-435a-9656-1cb17156003c}">
 		<property name="assetPath">
 			<value>sfx/metallicstep.wav</value>

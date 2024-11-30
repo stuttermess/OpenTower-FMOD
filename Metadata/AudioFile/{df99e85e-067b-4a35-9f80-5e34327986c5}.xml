@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{df99e85e-067b-4a35-9f80-5e34327986c5}">
 		<property name="assetPath">
 			<value>modded/titlecards/vigilante/title_warV.wav</value>

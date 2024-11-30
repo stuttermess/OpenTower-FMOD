@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b4632975-4251-4edb-b9b7-e4a4f06d7d4a}">
 		<property name="name">
 			<value>secretstreet</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{924fe480-2231-49e3-a0f2-6367bb80204f}">
 		<property name="assetPath">
 			<value>sfx/rankup5.wav</value>

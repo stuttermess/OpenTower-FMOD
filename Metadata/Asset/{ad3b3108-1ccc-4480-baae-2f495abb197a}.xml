@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{ad3b3108-1ccc-4480-baae-2f495abb197a}">
 		<property name="assetPath">
 			<value>modded/titlecards/</value>

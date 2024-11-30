@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{633723e2-24b5-4ffb-b7c4-4e7db8c8198c}">
 		<property name="assetPath">
 			<value>sfx/noisedemonscream.wav</value>

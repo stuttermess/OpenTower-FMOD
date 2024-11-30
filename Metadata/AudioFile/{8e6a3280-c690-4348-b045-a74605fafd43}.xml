@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8e6a3280-c690-4348-b045-a74605fafd43}">
 		<property name="assetPath">
 			<value>music/Pizza_Tower_OST_-_Tunnely_Shimbers.wav</value>

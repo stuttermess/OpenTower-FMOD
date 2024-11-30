@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{dcf702b0-5717-41c0-9428-177eaf9a25c3}">
 		<property name="assetPath">
 			<value>modded/sound/sm64_1-up.wav</value>

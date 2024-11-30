@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c1a06a66-78b9-42c9-ba1e-3d35ffd2f259}">
 		<property name="name">
 			<value>thunder</value>
@@ -87,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{3db8b904-9a96-4de6-bffb-2369050d8043}">
 		<relationship name="modules">
-			<destination>{1895929b-1608-458b-ab77-e4860e654166}</destination>
 			<destination>{ab23f2ea-4800-475d-b4a3-2d362147f5b9}</destination>
+			<destination>{1895929b-1608-458b-ab77-e4860e654166}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6463d4c7-9f53-4054-8db3-8dc471483e8c}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b9fa6e01-ee88-47a2-8008-4f081dec27ca}">
 		<property name="assetPath">
 			<value>sfx/sfx_scream5.wav</value>

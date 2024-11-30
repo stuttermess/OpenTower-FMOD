@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{373814f5-2620-490d-8ed1-a1de47b57618}">
 		<property name="assetPath">
 			<value>sfx/cheeseground2.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fb4079f0-98c0-40ac-bff6-ad76b1b43e31}">
 		<property name="assetPath">
 			<value>modded/Pizza Tower OST - Theatrical Shenanigans (outdated).mp3</value>

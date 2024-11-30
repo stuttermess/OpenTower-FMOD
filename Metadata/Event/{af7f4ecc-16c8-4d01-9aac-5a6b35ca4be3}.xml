@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{af7f4ecc-16c8-4d01-9aac-5a6b35ca4be3}">
 		<property name="name">
 			<value>fileselectN</value>

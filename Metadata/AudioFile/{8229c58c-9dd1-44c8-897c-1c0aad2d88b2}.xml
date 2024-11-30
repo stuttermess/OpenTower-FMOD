@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8229c58c-9dd1-44c8-897c-1c0aad2d88b2}">
 		<property name="assetPath">
 			<value>modded/titlecards/noise/old city noise.wav</value>

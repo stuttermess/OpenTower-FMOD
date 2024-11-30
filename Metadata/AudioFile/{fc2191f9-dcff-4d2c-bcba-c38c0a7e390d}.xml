@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fc2191f9-dcff-4d2c-bcba-c38c0a7e390d}">
 		<property name="assetPath">
 			<value>modded/titlecards/snickchallengetitle.wav</value>

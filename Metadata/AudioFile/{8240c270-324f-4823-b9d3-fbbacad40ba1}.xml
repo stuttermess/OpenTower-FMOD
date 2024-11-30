@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8240c270-324f-4823-b9d3-fbbacad40ba1}">
 		<property name="assetPath">
 			<value>sfx/honkhonk.wav</value>

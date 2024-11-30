@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{571ab6f7-f8b5-41a9-be50-711a7279242c}">
 		<property name="assetPath">
 			<value>sfx/mach2bump3.wav</value>

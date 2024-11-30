@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{796e72f0-1457-4992-b4cb-efbaf58b1e88}">
 		<property name="name">
 			<value>doise</value>
@@ -81,8 +81,8 @@
 	</object>
 	<object class="Timeline" id="{ef4428b8-198c-46c0-8071-f0bb72631308}">
 		<relationship name="modules">
-			<destination>{59adee5d-7d0e-41ad-b71f-5a6b8d1f4f44}</destination>
 			<destination>{27c50a15-fe49-4209-bdfc-6a1a3b72cd9a}</destination>
+			<destination>{59adee5d-7d0e-41ad-b71f-5a6b8d1f4f44}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a77436fc-dfa9-4f09-8d54-37bd69a738a2}">

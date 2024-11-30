@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{11563fe4-8c06-41ed-9af9-561ceb64573e}">
-		<property name="note" />
 		<property name="name">
 			<value>giantballoon2</value>
 		</property>
@@ -106,10 +105,10 @@
 	</object>
 	<object class="Timeline" id="{4775c424-92bf-4e72-9a21-7ec93481bf7e}">
 		<relationship name="modules">
+			<destination>{fbcbc9a1-4b88-4a6d-ae1c-24d4d4ba86fe}</destination>
 			<destination>{02b8aaa7-c1c4-4b4e-bd6a-111119ab23f6}</destination>
 			<destination>{42dfd93c-2294-4c2c-8886-2fb2d6070bbc}</destination>
 			<destination>{53df49a4-7708-4407-9dee-6a5e0736cd4e}</destination>
-			<destination>{fbcbc9a1-4b88-4a6d-ae1c-24d4d4ba86fe}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f198befb-e12c-4e4d-85e2-71f103f50e3b}">

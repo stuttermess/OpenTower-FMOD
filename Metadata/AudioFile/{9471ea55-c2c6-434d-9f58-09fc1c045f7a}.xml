@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9471ea55-c2c6-434d-9f58-09fc1c045f7a}">
 		<property name="assetPath">
 			<value>modded/68 BONUS Leaning Nightmare.mp3</value>

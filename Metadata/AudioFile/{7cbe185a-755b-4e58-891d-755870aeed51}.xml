@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7cbe185a-755b-4e58-891d-755870aeed51}">
 		<property name="assetPath">
 			<value>sfx/WarTimer.wav</value>

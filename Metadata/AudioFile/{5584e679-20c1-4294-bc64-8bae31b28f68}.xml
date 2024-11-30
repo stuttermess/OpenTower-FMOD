@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5584e679-20c1-4294-bc64-8bae31b28f68}">
 		<property name="assetPath">
 			<value>music/gnome.wav</value>

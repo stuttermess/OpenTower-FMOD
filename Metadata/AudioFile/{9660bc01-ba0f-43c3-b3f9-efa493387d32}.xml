@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9660bc01-ba0f-43c3-b3f9-efa493387d32}">
 		<property name="assetPath">
 			<value>modded/sound/sfx_mach2_old.wav</value>

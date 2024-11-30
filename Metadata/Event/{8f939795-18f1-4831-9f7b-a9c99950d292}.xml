@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8f939795-18f1-4831-9f7b-a9c99950d292}">
 		<property name="name">
 			<value>stomp</value>

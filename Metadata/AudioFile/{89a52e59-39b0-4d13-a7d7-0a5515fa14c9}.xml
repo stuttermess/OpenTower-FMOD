@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{89a52e59-39b0-4d13-a7d7-0a5515fa14c9}">
 		<property name="assetPath">
 			<value>sfx/waterslide.wav</value>

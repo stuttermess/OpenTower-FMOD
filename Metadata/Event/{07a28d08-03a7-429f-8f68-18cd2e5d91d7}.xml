@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{07a28d08-03a7-429f-8f68-18cd2e5d91d7}">
 		<property name="name">
 			<value>spaceship</value>
@@ -111,10 +111,10 @@
 	</object>
 	<object class="Timeline" id="{a78acf94-90da-45f1-bd56-db9a436ba34e}">
 		<relationship name="modules">
+			<destination>{fd9cebc3-0ab0-4295-9e2e-6a0132def289}</destination>
 			<destination>{efc5bcae-9782-4034-a0b0-cf026bd2543d}</destination>
 			<destination>{b9ff930e-113b-4241-8f48-912661acb807}</destination>
 			<destination>{be5bf04b-06cb-4fb7-bf25-3c1c88a54aa8}</destination>
-			<destination>{fd9cebc3-0ab0-4295-9e2e-6a0132def289}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9ea0834b-27f2-4a63-8846-6f9b709cc05e}">
@@ -465,8 +465,8 @@
 			<destination>{4907d289-e8c9-4840-8350-3579f63d573d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{bd909e13-faf5-4206-ae00-c685dd52a0f0}</destination>
 			<destination>{10f5bf16-d170-4e94-90ec-6fccf4d2cbfa}</destination>
+			<destination>{bd909e13-faf5-4206-ae00-c685dd52a0f0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b99b43f6-c720-437d-aa84-87f17b7d4501}" />
@@ -486,20 +486,20 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{bd909e13-faf5-4206-ae00-c685dd52a0f0}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{10f5bf16-d170-4e94-90ec-6fccf4d2cbfa}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{bd909e13-faf5-4206-ae00-c685dd52a0f0}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>

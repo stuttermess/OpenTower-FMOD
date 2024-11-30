@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{811ca219-aa8d-4466-9c72-44f259819fb1}">
 		<property name="note">
 			<value>unused event in the original banks</value>
@@ -78,8 +78,8 @@
 	<object class="Timeline" id="{302acbef-3372-4889-aa99-f7a01b72341c}">
 		<relationship name="modules">
 			<destination>{3c2ce626-c0c2-447a-8e2b-0cfc94d721f6}</destination>
-			<destination>{a799060a-3c07-4a85-9edb-ba2ef4326326}</destination>
 			<destination>{841f9354-61b7-4fa2-8911-854def68d2cd}</destination>
+			<destination>{a799060a-3c07-4a85-9edb-ba2ef4326326}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b237e571-fe1b-4627-bd9b-4a45a67aaaf1}">

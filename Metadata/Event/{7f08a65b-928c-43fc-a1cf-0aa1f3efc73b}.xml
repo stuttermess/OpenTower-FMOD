@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7f08a65b-928c-43fc-a1cf-0aa1f3efc73b}">
 		<property name="name">
 			<value>grinch</value>
@@ -68,8 +68,8 @@
 	<object class="MarkerTrack" id="{f4eee416-155d-4a34-94a3-56e2aca9417f}" />
 	<object class="GroupTrack" id="{d6bdc661-ebbf-47f6-933f-9737c8ddd957}">
 		<relationship name="modules">
-			<destination>{5df5c0a8-f264-473d-8bdb-85afc623cf65}</destination>
 			<destination>{a7786eef-3566-440d-99e2-2bb4ef836d43}</destination>
+			<destination>{5df5c0a8-f264-473d-8bdb-85afc623cf65}</destination>
 			<destination>{97d2a1ef-0a6d-41a9-8900-962e34c4b2b8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -114,6 +114,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2e5f68b1-bc25-4cab-9cfb-f96a7a8d3528}" />
+	<object class="TransitionSourceSound" id="{a7786eef-3566-440d-99e2-2bb4ef836d43}">
+		<property name="length">
+			<value>5</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{7d501c15-4297-4d28-a856-1dc6aa7dba49}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{5df5c0a8-f264-473d-8bdb-85afc623cf65}">
 		<property name="length">
 			<value>110.98938775510206</value>
@@ -123,14 +131,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{2b035c14-a6bd-4295-8a0c-a45ea5893c80}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionSourceSound" id="{a7786eef-3566-440d-99e2-2bb4ef836d43}">
-		<property name="length">
-			<value>5</value>
-		</property>
-		<relationship name="fadeOutCurve">
-			<destination>{7d501c15-4297-4d28-a856-1dc6aa7dba49}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationSound" id="{97d2a1ef-0a6d-41a9-8900-962e34c4b2b8}">
@@ -202,8 +202,8 @@
 		</property>
 		<relationship name="modules">
 			<destination>{a7786eef-3566-440d-99e2-2bb4ef836d43}</destination>
-			<destination>{97d2a1ef-0a6d-41a9-8900-962e34c4b2b8}</destination>
 			<destination>{cd8492c6-63ed-4bf5-9c0e-80ad858f04fe}</destination>
+			<destination>{97d2a1ef-0a6d-41a9-8900-962e34c4b2b8}</destination>
 			<destination>{99c79374-0744-4fef-be40-5d586af294d8}</destination>
 		</relationship>
 	</object>

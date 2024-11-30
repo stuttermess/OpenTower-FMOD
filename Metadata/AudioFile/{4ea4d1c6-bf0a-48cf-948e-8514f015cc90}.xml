@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4ea4d1c6-bf0a-48cf-948e-8514f015cc90}">
 		<property name="assetPath">
 			<value>sfx/guswalljump1.wav</value>

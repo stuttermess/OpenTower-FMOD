@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bae1c58d-3d41-4352-a53a-3f25b4edeb17}">
 		<property name="name">
 			<value>war</value>
@@ -81,8 +81,8 @@
 	</object>
 	<object class="Timeline" id="{dd93e08a-d89d-4b9e-a987-215a47fdd76f}">
 		<relationship name="modules">
-			<destination>{7f9330ed-8678-457e-845e-1e95942488a1}</destination>
 			<destination>{ee1f25a0-2608-428f-9636-e4a7bc390b6a}</destination>
+			<destination>{7f9330ed-8678-457e-845e-1e95942488a1}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{c00600f9-a7bb-4ba3-940e-b1d9fa478dc9}</destination>

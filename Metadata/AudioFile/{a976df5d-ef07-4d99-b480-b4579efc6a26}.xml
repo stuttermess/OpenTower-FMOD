@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a976df5d-ef07-4d99-b480-b4579efc6a26}">
 		<property name="assetPath">
 			<value>sfx/pizzaheadfishing1.wav</value>

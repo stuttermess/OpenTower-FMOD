@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{93616791-a0f0-4978-b02c-d43b0b58c7d5}">
 		<property name="assetPath">
 			<value>sfx/trashjump1.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2ec7de60-9fee-4ca6-aa99-8c6c5ce097b2}">
 		<property name="name">
 			<value>secretentrance</value>

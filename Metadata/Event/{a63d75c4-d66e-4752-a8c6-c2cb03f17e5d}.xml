@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a63d75c4-d66e-4752-a8c6-c2cb03f17e5d}">
 		<property name="name">
 			<value>loop</value>

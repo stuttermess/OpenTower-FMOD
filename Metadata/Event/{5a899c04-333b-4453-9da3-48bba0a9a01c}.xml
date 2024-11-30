@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5a899c04-333b-4453-9da3-48bba0a9a01c}">
 		<property name="name">
 			<value>menuexplosions</value>
@@ -90,11 +90,11 @@
 	<object class="Timeline" id="{65e26443-36b7-4358-b8cc-43024811dd5b}">
 		<relationship name="modules">
 			<destination>{98e90dfa-88f3-4435-b31d-e182fc8fe9cb}</destination>
-			<destination>{2bd2474f-8951-48ef-ab82-f8848e8c013d}</destination>
 			<destination>{d4f70fcf-99d5-4448-b316-96d4bceee532}</destination>
-			<destination>{c01ea086-ecc2-42bc-a9be-ced5e1f4f93f}</destination>
 			<destination>{f58c9789-29ab-4304-a432-e4dfec03b604}</destination>
 			<destination>{149b7132-c3cd-40f6-86a0-91caead4e6b0}</destination>
+			<destination>{c01ea086-ecc2-42bc-a9be-ced5e1f4f93f}</destination>
+			<destination>{2bd2474f-8951-48ef-ab82-f8848e8c013d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{779da781-b41f-424c-b3ea-31fe1dd6fa89}">

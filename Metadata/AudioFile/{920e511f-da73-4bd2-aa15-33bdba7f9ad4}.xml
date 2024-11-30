@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{920e511f-da73-4bd2-aa15-33bdba7f9ad4}">
 		<property name="assetPath">
 			<value>music/Pizza_Tower_OST_-_Your_Fat_Ass_Slows_You_Down.wav</value>

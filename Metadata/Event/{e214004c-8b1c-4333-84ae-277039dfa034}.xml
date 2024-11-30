@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e214004c-8b1c-4333-84ae-277039dfa034}">
-		<property name="note" />
 		<property name="name">
 			<value>ram</value>
 		</property>
@@ -97,8 +96,8 @@
 	</object>
 	<object class="Timeline" id="{43492f1f-8b55-43ec-81b7-20a04aab773e}">
 		<relationship name="modules">
-			<destination>{0217a269-ce68-45a1-aa4f-72086d0b332d}</destination>
 			<destination>{788faeef-4971-43a6-83b8-201f1518bcc7}</destination>
+			<destination>{0217a269-ce68-45a1-aa4f-72086d0b332d}</destination>
 			<destination>{46c4412e-35e0-4afc-b597-d2bce4c0444e}</destination>
 		</relationship>
 		<relationship name="markers">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c540ab30-e047-40f5-b55e-c4f1bd07de85}">
 		<property name="assetPath">
 			<value>sfx/cannonballshoot2.wav</value>
