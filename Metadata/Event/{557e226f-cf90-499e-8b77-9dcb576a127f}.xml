@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{557e226f-cf90-499e-8b77-9dcb576a127f}">
-		<property name="note">
-			<value>might be missing something</value>
-		</property>
+		<property name="note" />
 		<property name="name">
 			<value>donkeydead</value>
 		</property>
