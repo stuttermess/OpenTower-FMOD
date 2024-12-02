@@ -103,10 +103,13 @@
 	<object class="MixerBusPanner" id="{92f282b1-b80f-47e9-8832-cf2e24b2a63d}" />
 	<object class="SingleSound" id="{a7262fae-cd8a-4e3b-b36e-4fd6208af5ae}">
 		<property name="length">
-			<value>1.7797916666666667</value>
+			<value>1.7597916666666666</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.021684537376165297</value>
 		</property>
 		<property name="pitch">
-			<value>1.39999998</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{3ad56817-9c2a-4439-8b28-404a71761b64}</destination>
@@ -140,7 +143,7 @@
 		<relationship name="effects">
 			<destination>{e5278f9b-b72a-456b-b0be-e95e29aa3a5b}</destination>
 			<destination>{19edecf3-f1ef-43fb-a0a5-30191bdd8b28}</destination>
-			<destination>{dd1456b9-4c52-4fff-8935-dc1e7a73e40a}</destination>
+			<destination>{ea4afc6d-5cde-45e0-805e-86531a1351cc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{87133efc-537d-4114-ac52-7d9d9ac69c0a}" />
@@ -154,11 +157,8 @@
 			<value>10</value>
 		</property>
 	</object>
-	<object class="ChorusEffect" id="{dd1456b9-4c52-4fff-8935-dc1e7a73e40a}">
-		<property name="rate">
-			<value>0</value>
-		</property>
-		<property name="depth">
+	<object class="SFXReverbEffect" id="{ea4afc6d-5cde-45e0-805e-86531a1351cc}">
+		<property name="decayTime">
 			<value>100</value>
 		</property>
 	</object>

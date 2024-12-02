@@ -225,6 +225,7 @@
 			<destination>{597605b1-c62b-4921-9f15-7c5d8e404a16}</destination>
 			<destination>{40598955-24c5-408f-9f1b-0119ea2c8014}</destination>
 			<destination>{45aa508f-268d-4475-8161-611b4dbd98b3}</destination>
+			<destination>{2f6e33eb-4608-436c-9916-7dc1a96e2360}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c2d9375c-53b0-4f21-afbc-151ea667d8d0}" />
@@ -244,6 +245,7 @@
 			<destination>{94bbb20a-d062-4310-87f6-e6f8f4958150}</destination>
 			<destination>{e9e28856-abfc-4dd9-a3ed-a97820ba328b}</destination>
 			<destination>{cffe84c9-d64a-4cf7-a7aa-9aa8fcb1e435}</destination>
+			<destination>{473e270e-b5cd-443f-882e-1594d23bb914}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ae58495b-d43b-441f-8b39-3563c9e0de5b}" />
@@ -279,6 +281,14 @@
 			<value>-6.00000381</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{2f6e33eb-4608-436c-9916-7dc1a96e2360}">
+		<property name="position">
+			<value>3</value>
+		</property>
+		<property name="value">
+			<value>-6</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{106f4e63-60b7-4409-b0d0-3f00411a9a8f}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
@@ -309,6 +319,14 @@
 		</property>
 		<property name="value">
 			<value>-6</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{473e270e-b5cd-443f-882e-1594d23bb914}">
+		<property name="position">
+			<value>3</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{cb2b742d-a967-4705-b301-e09c4e41c92a}">
