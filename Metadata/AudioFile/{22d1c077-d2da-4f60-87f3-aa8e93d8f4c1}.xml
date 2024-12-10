@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{6ba3be5c-b279-459d-aeb9-ed51a22f34a3}">
+	<object class="AudioFile" id="{22d1c077-d2da-4f60-87f3-aa8e93d8f4c1}">
 		<property name="assetPath">
-			<value>modded/serverlist.ogg</value>
+			<value>modded/serverlist-christmas.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

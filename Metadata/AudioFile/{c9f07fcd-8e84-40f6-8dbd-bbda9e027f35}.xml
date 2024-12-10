@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{6ba3be5c-b279-459d-aeb9-ed51a22f34a3}">
+	<object class="AudioFile" id="{c9f07fcd-8e84-40f6-8dbd-bbda9e027f35}">
 		<property name="assetPath">
-			<value>modded/serverlist.ogg</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>sfx/sfx_buyweapon.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>88.888888888888886</value>
+			<value>0.81730158730158731</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ec376c7-9dab-4e28-9892-9388771afac6}</destination>
