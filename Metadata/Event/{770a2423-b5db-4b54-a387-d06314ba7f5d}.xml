@@ -5,7 +5,7 @@
 			<value>secretkidsparty SP</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{df67a827-3f8a-48c6-87fb-3f41d942e4b2}</destination>
@@ -69,17 +69,11 @@
 	</object>
 	<object class="MarkerTrack" id="{ae4f7034-2d14-40bc-9be3-e43843275bb0}" />
 	<object class="GroupTrack" id="{2a0d943a-8a09-463b-b3e5-dd728d25274d}">
-		<relationship name="modules">
-			<destination>{3b1a436f-ef47-4682-952a-a85dd048a9d9}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{138613a1-6d2d-42a2-85e2-e2704523dfce}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{eb350641-6f40-4067-958e-ea0af5f11816}">
-		<relationship name="modules">
-			<destination>{3b1a436f-ef47-4682-952a-a85dd048a9d9}</destination>
-		</relationship>
 		<relationship name="markers">
 			<destination>{83b72e86-dd1d-4b63-ad71-697ddcc62936}</destination>
 		</relationship>
@@ -133,14 +127,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6d7675b0-368e-421a-9fe7-3bc338143584}" />
-	<object class="SingleSound" id="{3b1a436f-ef47-4682-952a-a85dd048a9d9}">
-		<property name="length">
-			<value>48</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{a40308b2-27d3-4cfe-9e84-6ce0ee8fdc69}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{138613a1-6d2d-42a2-85e2-e2704523dfce}">
 		<property name="volume">
 			<value>3</value>

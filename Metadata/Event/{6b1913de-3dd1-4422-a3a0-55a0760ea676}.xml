@@ -5,7 +5,7 @@
 			<value>secretsaloon SP</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{df67a827-3f8a-48c6-87fb-3f41d942e4b2}</destination>
@@ -70,17 +70,11 @@
 	</object>
 	<object class="MarkerTrack" id="{7bafac39-819b-4158-98dd-c63185bdf6ee}" />
 	<object class="GroupTrack" id="{76957814-f951-4363-9ed5-d42cb9c14a1a}">
-		<relationship name="modules">
-			<destination>{347687be-d9cd-4104-8103-7278de176ad5}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c321422a-2ee5-4123-ae19-63001c20c65e}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{53519cd7-637c-4481-b513-e5aad92ed3fe}">
-		<relationship name="modules">
-			<destination>{347687be-d9cd-4104-8103-7278de176ad5}</destination>
-		</relationship>
 		<relationship name="markers">
 			<destination>{27538dc1-c787-4c1b-9568-69a729d35217}</destination>
 		</relationship>
@@ -142,14 +136,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c64cffa2-7375-4222-a690-91bd056b3551}" />
-	<object class="SingleSound" id="{347687be-d9cd-4104-8103-7278de176ad5}">
-		<property name="length">
-			<value>48</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{5b766750-3fb5-4065-bb73-4f52b552c413}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{c321422a-2ee5-4123-ae19-63001c20c65e}">
 		<property name="volume">
 			<value>3</value>

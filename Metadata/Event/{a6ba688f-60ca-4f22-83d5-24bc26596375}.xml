@@ -5,7 +5,7 @@
 			<value>secretforest SP</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{df67a827-3f8a-48c6-87fb-3f41d942e4b2}</destination>
@@ -70,17 +70,11 @@
 	</object>
 	<object class="MarkerTrack" id="{0eb36da5-191a-4526-8231-7760147261fe}" />
 	<object class="GroupTrack" id="{e2f214ce-3e54-4380-9a5e-c6da8cd69af8}">
-		<relationship name="modules">
-			<destination>{860aca45-c8a0-46f2-8357-d88696661534}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{522dc004-6f99-483d-a948-587a503e46a1}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{a67e901d-c36c-4658-80f0-8f32e622c5f7}">
-		<relationship name="modules">
-			<destination>{860aca45-c8a0-46f2-8357-d88696661534}</destination>
-		</relationship>
 		<relationship name="markers">
 			<destination>{9c0d7d4b-b0e2-4295-b99e-d6b6c6243597}</destination>
 		</relationship>
@@ -142,14 +136,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1c42ad56-c517-41a9-ab52-b04e84432547}" />
-	<object class="SingleSound" id="{860aca45-c8a0-46f2-8357-d88696661534}">
-		<property name="length">
-			<value>48</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{f5239cfa-bdca-4738-a222-62aefaa218fe}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{522dc004-6f99-483d-a948-587a503e46a1}">
 		<property name="volume">
 			<value>3</value>
