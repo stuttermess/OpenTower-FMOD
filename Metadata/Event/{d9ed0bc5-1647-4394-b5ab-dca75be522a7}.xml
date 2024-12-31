@@ -183,7 +183,7 @@
 	</object>
 	<object class="SingleSound" id="{baa0cd27-c97d-4c1d-89d7-8af49373fbbe}">
 		<property name="start">
-			<value>3.0120208333333336</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="length">
 			<value>0.84337499999999999</value>
@@ -311,7 +311,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>3.8553958333333336</value>
+			<value>4.0433750000000002</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{4107189d-06f8-472d-93a4-6e53c3431f0b}</destination>
@@ -345,7 +345,7 @@
 	</object>
 	<object class="LoopRegion" id="{0f3aa7a2-f059-463b-bb1a-c9068f99ad4a}">
 		<property name="position">
-			<value>3.0120208333333336</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="length">
 			<value>0.84337499999999999</value>
@@ -365,7 +365,7 @@
 	</object>
 	<object class="TransitionRegion" id="{7a2fbc1d-eb3c-46db-9c9f-39e6785d4172}">
 		<property name="position">
-			<value>3.0120208333333336</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="length">
 			<value>0.84337499999999999</value>
