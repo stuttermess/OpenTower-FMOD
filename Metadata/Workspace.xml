@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="Workspace" id="{7922530a-a8f7-47fd-b0fc-5bc87d3cece0}">
-		<property name="builtBanksOutputDirectory">
-			<value>../../../GameMakerStudio2/CheesusCrust/datafiles/data/sound</value>
-		</property>
+	<object class="Workspace" id="{fb274a0d-37ed-4d23-8427-2a6a4a24a82e}">
 		<relationship name="masterEventFolder">
-			<destination>{49c470f9-0b21-42d2-a9fe-53a4ce9dca63}</destination>
+			<destination>{b30dfd59-876d-4c84-aea6-ed613f22fae6}</destination>
 		</relationship>
 		<relationship name="masterTagFolder">
-			<destination>{650e1d59-12f1-4e48-b053-01f2238b3d4d}</destination>
+			<destination>{59f20085-6c0b-45ce-ab3d-7bd57da844cc}</destination>
 		</relationship>
 		<relationship name="masterEffectPresetFolder">
-			<destination>{4c222fc6-2b78-495d-9801-94438456e334}</destination>
+			<destination>{b66d9da3-1346-4c06-ad00-4acf7ca4197c}</destination>
 		</relationship>
 		<relationship name="masterParameterPresetFolder">
-			<destination>{3a75a9c6-6e02-497e-aea6-079f75f09dd9}</destination>
+			<destination>{ebd80d4a-6c3c-468b-883d-cc9e4f67e374}</destination>
 		</relationship>
 		<relationship name="masterBankFolder">
-			<destination>{fa69ce19-1294-4058-ba62-db3fc237c455}</destination>
+			<destination>{4626a34c-aa39-4e11-8806-ee69020a18eb}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{64c6e38d-44ae-4592-b15e-fa383f6452a9}</destination>
+			<destination>{190ca2b8-1fa1-4797-835f-d5428c6de0cb}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
-			<destination>{3ec376c7-9dab-4e28-9892-9388771afac6}</destination>
+			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>
 		</relationship>
 		<relationship name="mixer">
-			<destination>{d16d6b67-dbe5-4db4-a1a4-26435aeebc0d}</destination>
+			<destination>{3647d327-b2d4-4eb9-af2e-86ebb2b347a8}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{4486a131-b050-4119-a96f-f688e4d7c078}</destination>
+			<destination>{d5f3b18f-5fad-4cfb-b4a9-ae519a902e3d}</destination>
 		</relationship>
 		<relationship name="platforms">
-			<destination>{a5c06b3e-91c0-4938-aa75-7a0b3168accb}</destination>
+			<destination>{509865ae-9003-4b3b-b6d0-d17463a87eb0}</destination>
 		</relationship>
 	</object>
 </objects>
