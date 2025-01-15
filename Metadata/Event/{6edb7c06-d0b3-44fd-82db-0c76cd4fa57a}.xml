@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6edb7c06-d0b3-44fd-82db-0c76cd4fa57a}">
 		<property name="name">
 			<value>golfpunch</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{ad326775-35e1-4645-9483-91dbd5916933}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{fdc4a367-7585-409b-9b45-050d55e42571}</destination>
 		</relationship>
@@ -57,9 +60,23 @@
 			<destination>{f18d5877-3d50-41c0-b6c0-9be04ada9938}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{86901c73-e8f6-450d-b123-0df70edb4b97}" />
-	<object class="MarkerTrack" id="{6ffc840b-585d-4f2a-b3ce-dd0718767d4d}" />
+	<object class="EventAutomatableProperties" id="{86901c73-e8f6-450d-b123-0df70edb4b97}">
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>900</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{6ffc840b-585d-4f2a-b3ce-dd0718767d4d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{05542871-d143-4e11-9481-94a91e611bd5}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{b0138bfd-a415-448c-86fa-37cf8426e12d}</destination>
 		</relationship>
@@ -68,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{ca96a2a8-d69e-4ef2-acaf-0d2247324986}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{137c3c91-ea55-40b7-9fd4-afa79c521386}</destination>
 		</relationship>

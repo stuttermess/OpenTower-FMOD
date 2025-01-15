@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9cb7d055-9727-442f-b5c3-b43206532285}">
 		<property name="name">
 			<value>pizzaheadnoise</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{619eb9ac-f66d-4588-9130-2e89246af3dd}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{9720cae9-a677-48bd-b2ff-1c942e800217}</destination>
 		</relationship>
@@ -61,8 +64,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{db4ac9f0-a5a9-496f-8a7e-bc360f614c17}" />
+	<object class="MarkerTrack" id="{db4ac9f0-a5a9-496f-8a7e-bc360f614c17}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{11d0f675-4f68-4c5c-a3a7-346786b17180}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{3950cb12-2791-4194-a5db-4e846c8f43e0}</destination>
 		</relationship>

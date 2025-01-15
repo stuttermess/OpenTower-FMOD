@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1ce4df9f-c79f-4911-b54f-c097519b6b58}">
 		<property name="name">
 			<value>graveyardsecret</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{70a28d71-8466-4d27-a413-7a5ea3bd2d83}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{e4167bb9-09f1-46ff-b354-171a30a540b8}</destination>
 		</relationship>
@@ -61,8 +64,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{5c9691b3-17cf-4b24-b5f9-77c19be2dd82}" />
+	<object class="MarkerTrack" id="{5c9691b3-17cf-4b24-b5f9-77c19be2dd82}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{b9b2ef39-6618-4e4f-ae96-781f23cdedbb}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{fd7aa5fd-9e2d-477c-a65a-4dad59951c1c}</destination>
 		</relationship>

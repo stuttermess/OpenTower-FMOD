@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{993a6ed4-f8ab-4b35-9238-d09c7aac99ce}">
 		<property name="name">
 			<value>wallbounceland</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{cc0ac3a8-98a0-488a-ac3b-9e98689b90a9}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{8d7abff2-cf7e-4b3b-8815-40f073552102}</destination>
 		</relationship>
@@ -62,14 +65,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{68bb88b1-de83-4e51-ad86-28d8bc217d63}" />
+	<object class="MarkerTrack" id="{68bb88b1-de83-4e51-ad86-28d8bc217d63}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{76b1ae22-ab0a-491c-a34a-b8873c505c98}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{0c26b0e3-540f-42ee-8293-bfd77343ded4}</destination>
 		</relationship>
@@ -78,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{92c7a899-ef29-4d7a-a093-5a7b669ca7ed}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{680cb373-c1ee-4f95-ac4c-9338510b4f82}</destination>
 		</relationship>
@@ -87,8 +100,8 @@
 	</object>
 	<object class="Timeline" id="{49d294ac-b7ba-426c-a4c7-4766c6da48be}">
 		<relationship name="modules">
-			<destination>{680cb373-c1ee-4f95-ac4c-9338510b4f82}</destination>
 			<destination>{0c26b0e3-540f-42ee-8293-bfd77343ded4}</destination>
+			<destination>{680cb373-c1ee-4f95-ac4c-9338510b4f82}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8d7abff2-cf7e-4b3b-8815-40f073552102}">

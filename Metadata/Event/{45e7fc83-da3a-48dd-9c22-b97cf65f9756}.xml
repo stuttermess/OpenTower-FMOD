@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{45e7fc83-da3a-48dd-9c22-b97cf65f9756}">
 		<property name="name">
 			<value>switchchardown</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c7603ee7-e2f6-44af-85b4-23f4ac8ef89f}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{cbbc78f1-e975-46e2-b48c-b1c79f31b17d}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1405debd-0b75-4e1b-afa8-c1b315b22637}" />
-	<object class="MarkerTrack" id="{b396fad0-11ca-48e6-84d2-9b5a4321c405}" />
+	<object class="MarkerTrack" id="{b396fad0-11ca-48e6-84d2-9b5a4321c405}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{52624be1-9d8e-4bb8-81cd-aa08814c4a0d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{95a4dc25-9f45-452a-93bb-e98498be22bb}</destination>
 		</relationship>

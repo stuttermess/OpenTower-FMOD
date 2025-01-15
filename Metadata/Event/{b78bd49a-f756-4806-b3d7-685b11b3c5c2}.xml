@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b78bd49a-f756-4806-b3d7-685b11b3c5c2}">
 		<property name="name">
 			<value>pepbotkick</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0f0b571b-d00f-4567-853b-83035488ee2d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{508f9ba1-a8a3-4202-8094-3cb5f5c662ae}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{2974de73-22b0-44f0-b390-ab767b4025ff}" />
+	<object class="MarkerTrack" id="{2974de73-22b0-44f0-b390-ab767b4025ff}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{078d767a-35b1-4af0-a9f7-b8e2f93fe9e1}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{c9c11307-9975-44db-87b5-ff1069b6b97d}</destination>
 		</relationship>

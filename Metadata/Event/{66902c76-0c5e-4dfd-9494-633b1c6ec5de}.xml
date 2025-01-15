@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{66902c76-0c5e-4dfd-9494-633b1c6ec5de}">
 		<property name="name">
 			<value>thundercloud</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{6d25c80f-7e0c-48c4-8aef-79861ed93e26}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{e8d0cc89-e5de-4db2-9d59-8b498f96b85f}</destination>
 		</relationship>
@@ -62,14 +65,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{916fd706-8f7d-4d25-a2f6-e8c6316a3931}" />
+	<object class="MarkerTrack" id="{916fd706-8f7d-4d25-a2f6-e8c6316a3931}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{fba41758-c8c3-477a-bda9-afc449a0420d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{25680f86-a91e-41bc-86c1-7102dff938d8}</destination>
 		</relationship>
@@ -78,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{a048c96e-5054-47aa-a179-15fbe1d06c0b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{068be060-409f-4b19-a96b-98b5864ce27d}</destination>
 		</relationship>

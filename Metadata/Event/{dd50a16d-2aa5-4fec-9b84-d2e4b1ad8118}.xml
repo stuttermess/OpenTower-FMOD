@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dd50a16d-2aa5-4fec-9b84-d2e4b1ad8118}">
 		<property name="name">
 			<value>demonsuprise</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{cbc0272d-f528-41ec-a634-d38dfb307b26}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c7660fcb-747f-45fe-bb75-c26ed8384941}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{32f833ab-8b68-435d-b6b0-45c9156b00d9}" />
+	<object class="MarkerTrack" id="{32f833ab-8b68-435d-b6b0-45c9156b00d9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1db2eff9-8e75-4e21-820c-5799a4c02829}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{43a2eff7-c311-4757-9b16-e22d363dc40c}</destination>
 		</relationship>

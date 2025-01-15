@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ddb6c7ed-2bd0-4e1a-813d-ddefe206bab8}">
 		<property name="name">
 			<value>hook</value>
@@ -62,10 +62,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{2d4956cd-2d8f-4319-bf0f-04f5ac0d3c92}" />
@@ -87,8 +87,8 @@
 	</object>
 	<object class="Timeline" id="{85c4b08e-700b-46fe-b224-35595873c776}">
 		<relationship name="modules">
-			<destination>{5cc89047-13cf-4e1e-83a8-117e8e711bab}</destination>
 			<destination>{2b2674bd-ade2-4d5e-b2ff-3cde0b2c01e3}</destination>
+			<destination>{5cc89047-13cf-4e1e-83a8-117e8e711bab}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a8ecc8d3-3662-41b2-be52-5d7b2c6d4efe}">

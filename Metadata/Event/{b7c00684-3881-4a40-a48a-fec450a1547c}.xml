@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b7c00684-3881-4a40-a48a-fec450a1547c}">
 		<property name="name">
 			<value>taunt</value>
@@ -61,10 +61,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{2dfbb8d7-d223-4190-b54f-c19a09b9cf7b}" />

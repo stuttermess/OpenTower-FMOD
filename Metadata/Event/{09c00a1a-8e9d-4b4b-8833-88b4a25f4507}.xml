@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{09c00a1a-8e9d-4b4b-8833-88b4a25f4507}">
 		<property name="name">
 			<value>beerhit</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{8055c64a-1168-4af7-a0dd-dbddb462afa1}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{08679b92-0b11-44a5-acd6-3faee6f6e401}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{e59582f0-1aba-439f-bcbc-3f23a9070e51}" />
+	<object class="MarkerTrack" id="{e59582f0-1aba-439f-bcbc-3f23a9070e51}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{8c66a978-f612-4b3e-a87a-6662c1e231e9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{fd4c8cb3-7316-4902-97bc-8bec75022dd0}</destination>
 		</relationship>

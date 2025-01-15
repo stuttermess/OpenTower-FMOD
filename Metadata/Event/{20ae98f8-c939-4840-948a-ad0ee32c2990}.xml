@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{20ae98f8-c939-4840-948a-ad0ee32c2990}">
 		<property name="name">
 			<value>ufolivelaser</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{a2af1ac3-15de-4d92-9037-6c7f8f98c0bd}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{97ba7551-46ee-47e6-a325-343c30cb3ff5}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{c790b64d-0bfc-4fbb-abd8-9912b56d4105}" />
+	<object class="MarkerTrack" id="{c790b64d-0bfc-4fbb-abd8-9912b56d4105}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{8495ad29-5a44-4ea0-99dd-0f3a02868894}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{1de0ee8b-e5ee-4914-9183-428f49c9bed0}</destination>
 		</relationship>

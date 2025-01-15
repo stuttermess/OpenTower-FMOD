@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a0e2e882-b88b-43a6-a1a5-3d7261cfbae2}">
 		<property name="name">
 			<value>wartimer</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c5f11ec7-4d10-4116-85a5-2df9046bbeaa}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{ab947ecb-910e-4b98-be01-83ffa4bfb863}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{336b28ea-1212-4093-abaa-c102208a3131}" />
-	<object class="MarkerTrack" id="{fbafc091-fc66-45d7-beb8-cdd7dc7d9b85}" />
+	<object class="MarkerTrack" id="{fbafc091-fc66-45d7-beb8-cdd7dc7d9b85}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{a3e53da2-1ff2-45ba-899b-ca12fc018287}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{90c7f8d6-7eb6-4951-bfbc-9ee24b6f7fe0}</destination>
 		</relationship>

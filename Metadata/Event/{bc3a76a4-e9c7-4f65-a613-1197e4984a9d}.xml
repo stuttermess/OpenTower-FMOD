@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{bc3a76a4-e9c7-4f65-a613-1197e4984a9d}">
 		<property name="name">
 			<value>pistolstart</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{010a3285-46e8-47f9-933a-a523964c0180}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{a0eeffa2-b2eb-4ea8-a803-066042804a9c}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{a6486dea-83c9-4af4-87ee-80cb7aff0f82}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{a6486dea-83c9-4af4-87ee-80cb7aff0f82}" />
 	<object class="GroupTrack" id="{e035fdbd-1a96-4787-81dd-77c69285aca1}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a31ce6ae-f122-42ee-965b-66e047761ba4}</destination>
 		</relationship>

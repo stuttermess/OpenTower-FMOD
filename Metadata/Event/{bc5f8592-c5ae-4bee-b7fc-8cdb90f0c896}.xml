@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{bc5f8592-c5ae-4bee-b7fc-8cdb90f0c896}">
 		<property name="name">
 			<value>noisette</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c47a0dcd-5edd-48ea-b6b7-bc025356a102}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e219497b-7e03-42be-8f0d-7e25b4b45292}</destination>
 			<destination>{2cea5127-3838-4f82-9fd4-c02b813e2ac2}</destination>
@@ -64,9 +67,22 @@
 		<property name="priority">
 			<value>4</value>
 		</property>
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>900</value>
+		</property>
 	</object>
-	<object class="MarkerTrack" id="{272fd57b-d396-440e-a419-920c5fdb86ab}" />
+	<object class="MarkerTrack" id="{272fd57b-d396-440e-a419-920c5fdb86ab}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{30ca07be-6b17-410f-98c3-0acb22ef84dd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{6d578700-d667-4acd-b8d3-2724a36e8c5c}</destination>
 			<destination>{64f064e3-56b6-465f-aee1-f7c21466acae}</destination>

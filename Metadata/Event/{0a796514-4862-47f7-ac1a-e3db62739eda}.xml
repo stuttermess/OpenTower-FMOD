@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0a796514-4862-47f7-ac1a-e3db62739eda}">
 		<property name="name">
 			<value>credits</value>
@@ -43,6 +43,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{e19c043a-5054-49b5-87a7-80a49256a133}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{572f4a85-c888-4d11-b254-f398332f469d}</destination>
 		</relationship>
@@ -63,8 +66,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{0791eff9-22fd-4c78-88bf-3142831608b3}" />
+	<object class="MarkerTrack" id="{0791eff9-22fd-4c78-88bf-3142831608b3}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1865a492-b384-488e-baaf-22876735cb63}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{20738577-bda8-4d96-a8f4-c0616a1d5c4a}</destination>
 		</relationship>
@@ -76,6 +86,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{07a91005-c0c9-421a-baec-f038fa9d1286}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{3afaed3c-b2ed-4839-bf32-01d45df962a3}</destination>
 		</relationship>
@@ -87,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{d8aba090-4361-45b9-9ea0-6cea318b578a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{d64fd596-04ce-48c5-abc7-c4f0084a320c}</destination>
 		</relationship>
@@ -124,6 +140,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{d21b63b0-3ced-4ba7-85ce-deac3440911f}" />
 	<object class="AutomationTrack" id="{20738577-bda8-4d96-a8f4-c0616a1d5c4a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{43e27fea-a5f2-406a-9e44-907897dce4a2}</destination>
 		</relationship>
@@ -157,6 +176,9 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{3afaed3c-b2ed-4839-bf32-01d45df962a3}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{c32b67a7-c606-4e59-aca1-5d2e94fa0246}</destination>
 		</relationship>

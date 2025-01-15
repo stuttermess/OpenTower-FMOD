@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e963bbdc-f6c2-42de-b5d5-49c49aae0fa4}">
 		<property name="name">
 			<value>sewersecret</value>

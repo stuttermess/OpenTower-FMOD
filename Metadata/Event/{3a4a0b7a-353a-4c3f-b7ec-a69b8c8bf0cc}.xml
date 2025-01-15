@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3a4a0b7a-353a-4c3f-b7ec-a69b8c8bf0cc}">
 		<property name="name">
 			<value>pig</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{59d1b203-9e9b-4e3c-8e08-6dfdee4ae37d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{31ae3dd7-8010-4e50-b359-f9a0237ff677}</destination>
 		</relationship>
@@ -56,9 +59,23 @@
 			<destination>{f18d5877-3d50-41c0-b6c0-9be04ada9938}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{2678f074-bd94-4ce1-8eea-a4e7cd72442d}" />
-	<object class="MarkerTrack" id="{d31c183c-3b54-43fb-b664-dadb38f78a69}" />
+	<object class="EventAutomatableProperties" id="{2678f074-bd94-4ce1-8eea-a4e7cd72442d}">
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>900</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{d31c183c-3b54-43fb-b664-dadb38f78a69}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{c728d3b4-aa81-438c-9d20-2a3c3dcb67e1}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{519927d7-c101-4bf2-83a1-becfefb72b50}</destination>
 		</relationship>

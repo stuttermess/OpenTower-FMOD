@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6073b1e0-5f62-4eed-83d3-02b8bb6f3da2}">
 		<property name="name">
 			<value>secretpizzascape</value>
@@ -48,6 +48,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{281f5617-ad90-49bb-a42f-e9abe082bcf7}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{ef82f979-bb3a-4408-8652-a61b6709407a}</destination>
 		</relationship>
@@ -68,8 +71,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{48359897-7811-4ff7-86a4-450cc3d21dec}" />
+	<object class="MarkerTrack" id="{48359897-7811-4ff7-86a4-450cc3d21dec}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{4130098c-13e2-43ef-954e-a5239d3e704d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{678e0fe6-39d0-46ca-ad81-30304c59062b}</destination>
 		</relationship>

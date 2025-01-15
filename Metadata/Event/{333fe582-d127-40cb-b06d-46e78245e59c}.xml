@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{333fe582-d127-40cb-b06d-46e78245e59c}">
 		<property name="name">
 			<value>supernoisescream</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{bdab8e69-2562-496a-b3f7-cb4e4373163a}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{13e58565-1d92-4963-8d73-b4981688dc13}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{f95647a9-dfb3-4604-9f9b-c1eab0678483}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{f95647a9-dfb3-4604-9f9b-c1eab0678483}" />
 	<object class="GroupTrack" id="{739c97c6-5757-4757-918d-df386c42e838}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{f2a84bca-8447-40ee-a11d-07a2e5cc6843}</destination>
 		</relationship>

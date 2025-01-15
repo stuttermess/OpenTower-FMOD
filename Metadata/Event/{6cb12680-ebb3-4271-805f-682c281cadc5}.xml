@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6cb12680-ebb3-4271-805f-682c281cadc5}">
 		<property name="name">
 			<value>secretwar</value>
@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{4a4ab97d-becb-4333-8083-a7db3a57048b}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{0a66eefa-640a-4fea-866a-fae9c879a471}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{6dec0b8d-62be-4afb-8794-44d6e29c2676}" />
+	<object class="MarkerTrack" id="{6dec0b8d-62be-4afb-8794-44d6e29c2676}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{9bee8370-9c97-402e-a130-8e2bb043c35c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{401a17df-4a9d-4e0a-970c-13ade8c0ef09}</destination>
 		</relationship>

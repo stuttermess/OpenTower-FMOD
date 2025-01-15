@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ed00b30c-ff7d-41bc-957c-b533a5bdc4e1}">
 		<property name="name">
 			<value>coldspaghetti</value>
@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{99ffa582-99c8-4a1f-9f81-62d27d886e82}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{5987972c-b33e-4762-826f-38b53abb96ea}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{715ffb58-439d-40dd-b22c-f414a52138a4}" />
+	<object class="MarkerTrack" id="{715ffb58-439d-40dd-b22c-f414a52138a4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{bcc05b9c-eb2b-4b04-8dc8-e761ac61c8f6}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{fed0637e-2e12-491e-8001-fbc27468bc2d}</destination>
 		</relationship>

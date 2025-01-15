@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{26b84c53-b556-46d4-962d-9fa34fc12650}">
 		<property name="name">
 			<value>finalrank</value>

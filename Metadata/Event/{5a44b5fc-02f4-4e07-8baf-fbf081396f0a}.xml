@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5a44b5fc-02f4-4e07-8baf-fbf081396f0a}">
 		<property name="name">
 			<value>gustavo</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{8066f85e-b9f1-4247-be39-e9d52d58b752}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{a11560a2-46a5-462d-9ce1-0853b608cb79}</destination>
 		</relationship>
@@ -64,8 +67,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{cd9cda12-901a-4df7-a989-6fd695e84929}" />
+	<object class="MarkerTrack" id="{cd9cda12-901a-4df7-a989-6fd695e84929}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{5db3f5a2-feed-4b1e-ba0c-9d3eca29c296}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{27289cd2-29cf-4a20-b4e3-84f9168d2386}</destination>
 		</relationship>
@@ -96,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{a11560a2-46a5-462d-9ce1-0853b608cb79}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{9fd65182-c728-4895-850a-481bfd0cd99f}</destination>
 		</relationship>

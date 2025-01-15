@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5b4dc28b-b980-461c-8492-051e4e9e3281}">
 		<property name="name">
 			<value>dungeondepth</value>

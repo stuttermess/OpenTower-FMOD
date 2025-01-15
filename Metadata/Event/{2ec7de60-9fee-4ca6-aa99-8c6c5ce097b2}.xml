@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2ec7de60-9fee-4ca6-aa99-8c6c5ce097b2}">
 		<property name="name">
 			<value>secretentrance</value>
@@ -48,6 +48,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{65d5ce97-fe84-4353-afde-4bfd4f99e544}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f484a243-b243-4507-90c0-0cdef40ab9b6}</destination>
 		</relationship>
@@ -68,8 +71,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{bc9d85f3-e712-4a48-85db-4d95f82fab4a}" />
+	<object class="MarkerTrack" id="{bc9d85f3-e712-4a48-85db-4d95f82fab4a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{ade4fcc5-d41b-4968-b1ca-4b2aaeb370b9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a5ed40da-6522-4829-a97b-5583d06b5644}</destination>
 		</relationship>

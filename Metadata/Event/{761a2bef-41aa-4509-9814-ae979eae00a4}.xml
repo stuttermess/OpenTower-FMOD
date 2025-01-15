@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{761a2bef-41aa-4509-9814-ae979eae00a4}">
 		<property name="name">
 			<value>tvbounce</value>
@@ -43,6 +43,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{bc3946fa-5685-424c-92e8-3d3070e852f6}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{abae5504-e608-4cc6-8ba7-3cb6e9d8d365}</destination>
 		</relationship>
@@ -63,14 +66,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{f8f706d6-89ba-4fa4-96fa-c5dd1a176ed7}" />
+	<object class="MarkerTrack" id="{f8f706d6-89ba-4fa4-96fa-c5dd1a176ed7}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1b859736-00c2-4d5d-a85e-bae69f75cf5c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{786da186-708b-487b-9bb4-c33035f4d8ce}</destination>
 		</relationship>
@@ -79,6 +89,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{f2f84cbc-1584-4caa-8f12-bedec82324e7}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e5896cc9-29a5-4969-b3b1-f341ff274791}</destination>
 		</relationship>
@@ -87,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{29a65935-ba5d-4bc7-a25e-b2534cad349c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{29597f07-6e0f-4eda-a675-8c0c193295fc}</destination>
 		</relationship>

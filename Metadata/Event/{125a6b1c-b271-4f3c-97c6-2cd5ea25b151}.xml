@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{125a6b1c-b271-4f3c-97c6-2cd5ea25b151}">
 		<property name="name">
 			<value>groundpound</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{e64a509c-638f-47cd-a67e-cf92b80bde00}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{8d3c1339-1348-4f81-88fb-574b701c8d98}</destination>
 		</relationship>
@@ -62,14 +65,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{d1761951-d1d3-40cd-9050-2e706538fab9}" />
+	<object class="MarkerTrack" id="{d1761951-d1d3-40cd-9050-2e706538fab9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{d4fae40c-93c4-4830-bdf1-e000fdc43eb6}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{412cbac5-a9be-497e-833e-345103816f81}</destination>
 		</relationship>
@@ -78,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{7aa30345-b842-41c5-ac1c-26fd037abeb5}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{4c7bc204-bab0-4054-aade-8a9d2c2acd24}</destination>
 		</relationship>
@@ -87,8 +100,8 @@
 	</object>
 	<object class="Timeline" id="{7b367a08-1aa8-42a3-9ebc-4e37bdcad9f5}">
 		<relationship name="modules">
-			<destination>{412cbac5-a9be-497e-833e-345103816f81}</destination>
 			<destination>{4c7bc204-bab0-4054-aade-8a9d2c2acd24}</destination>
+			<destination>{412cbac5-a9be-497e-833e-345103816f81}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8d3c1339-1348-4f81-88fb-574b701c8d98}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e94cb327-6e95-44dd-b071-9e588e279052}">
 		<property name="name">
 			<value>taxibeep</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{82599204-879e-4362-acb6-bf0af7b08e5d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{5d7b5bd9-6cd2-4445-9476-2918ec379239}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{7b3cbe70-d23f-4981-ba74-dcc0b1dd95ee}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{7b3cbe70-d23f-4981-ba74-dcc0b1dd95ee}" />
 	<object class="GroupTrack" id="{eeeda6ec-f668-40ca-99df-e96feca0c3ae}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{1499ecb4-5c5e-4e25-82c5-0021da800b76}</destination>
 		</relationship>

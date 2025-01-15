@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{46cbe694-70a4-48fe-9908-3fa45b5d1b82}">
 		<property name="name">
 			<value>lightswitch</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{14e142e6-74e7-423b-b6b9-644096a0ef4d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{fa107ec4-5754-4826-a510-6b813e3f20f9}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{aadd1c77-fc30-4599-b8a3-e57d57a79248}" />
-	<object class="MarkerTrack" id="{f07b58b2-8f7d-4454-8c56-035f20b8530e}" />
+	<object class="MarkerTrack" id="{f07b58b2-8f7d-4454-8c56-035f20b8530e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{c0b3de97-a7d9-4afa-ad8f-743bac6ec53f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{30c03cb1-0913-47de-976b-446becbbe243}</destination>
 		</relationship>

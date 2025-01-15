@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{02f0cd79-98f0-4336-b045-0084b01ac0b3}">
 		<property name="name">
 			<value>breakdancemusic</value>
@@ -61,10 +61,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{3be3377e-5753-4290-948c-a3a9827802f1}" />

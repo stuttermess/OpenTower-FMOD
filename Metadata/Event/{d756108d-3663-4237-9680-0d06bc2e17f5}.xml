@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d756108d-3663-4237-9680-0d06bc2e17f5}">
 		<property name="name">
 			<value>ratdead</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{ed2afd82-d88e-4106-bfef-9c0c0d1a21c0}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{9e3d0c2e-985a-4e8f-950e-c5b4fd44f673}</destination>
 		</relationship>
@@ -62,14 +65,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{0fa20464-55e7-484c-a262-a0da75b4441a}" />
+	<object class="MarkerTrack" id="{0fa20464-55e7-484c-a262-a0da75b4441a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1a3f36c5-1788-4dd0-8ef9-eda049d3253b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{09be6e1c-9cd2-426e-ae5f-ec4f8d1e7192}</destination>
 		</relationship>
@@ -78,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{17fbc553-a950-4576-92ab-0edf46fa8998}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e6c2eb07-1efb-44b9-9d82-61670e3bbbb9}</destination>
 			<destination>{873591ea-437e-44ba-b8b4-a3cfc49044c4}</destination>
@@ -89,8 +102,8 @@
 	</object>
 	<object class="Timeline" id="{0b0b3823-2452-41f1-ae77-73d78b95dfc7}">
 		<relationship name="modules">
-			<destination>{09be6e1c-9cd2-426e-ae5f-ec4f8d1e7192}</destination>
 			<destination>{e6c2eb07-1efb-44b9-9d82-61670e3bbbb9}</destination>
+			<destination>{09be6e1c-9cd2-426e-ae5f-ec4f8d1e7192}</destination>
 			<destination>{873591ea-437e-44ba-b8b4-a3cfc49044c4}</destination>
 			<destination>{90d3e1de-d6e5-4fed-9fc2-245f880c96e2}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e9de0868-5bd2-477c-885e-dedc4c1aa1c9}">
 		<property name="name">
 			<value>bossdeath</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{8c730a68-3f79-40c9-8830-b87162637594}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{e2415ffb-1996-4d77-846f-c28bb31da7cd}</destination>
 		</relationship>
@@ -62,15 +65,26 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{04ab87b0-671a-4508-a293-726de3c45fae}" />
-	<object class="MarkerTrack" id="{9336a964-87ed-42d8-a927-d2c20e6e595e}" />
+	<object class="MarkerTrack" id="{04ab87b0-671a-4508-a293-726de3c45fae}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{9336a964-87ed-42d8-a927-d2c20e6e595e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{e27fd9eb-7016-43d9-a339-e5e4b5abb5cf}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e35c6a9f-d067-46a1-9ecd-cd03fb5cfa88}</destination>
 		</relationship>
@@ -83,9 +97,9 @@
 			<destination>{e35c6a9f-d067-46a1-9ecd-cd03fb5cfa88}</destination>
 		</relationship>
 		<relationship name="markers">
+			<destination>{bc64727e-1eb0-42cc-ac53-91dce5f58f42}</destination>
 			<destination>{0338cdc5-ac32-47f7-a78e-84ad9ee7c009}</destination>
 			<destination>{dc86005c-acc7-4c82-9e87-d61031d9da79}</destination>
-			<destination>{bc64727e-1eb0-42cc-ac53-91dce5f58f42}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e2415ffb-1996-4d77-846f-c28bb31da7cd}">
@@ -130,6 +144,26 @@
 			<destination>{e2415ffb-1996-4d77-846f-c28bb31da7cd}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionRegion" id="{bc64727e-1eb0-42cc-ac53-91dce5f58f42}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>3.6399999999999997</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{079122cb-b543-4670-bad8-b30f08b99550}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{04ab87b0-671a-4508-a293-726de3c45fae}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{dc86005c-acc7-4c82-9e87-d61031d9da79}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{86a95116-4a2a-443a-a930-bae4bcbedc98}</destination>
+		</relationship>
+	</object>
 	<object class="LoopRegion" id="{0338cdc5-ac32-47f7-a78e-84ad9ee7c009}">
 		<property name="position">
 			<value>1.5</value>
@@ -156,26 +190,6 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{9336a964-87ed-42d8-a927-d2c20e6e595e}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionRegion" id="{bc64727e-1eb0-42cc-ac53-91dce5f58f42}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>3.6399999999999997</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{079122cb-b543-4670-bad8-b30f08b99550}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{04ab87b0-671a-4508-a293-726de3c45fae}</destination>
-		</relationship>
-		<relationship name="destination">
-			<destination>{dc86005c-acc7-4c82-9e87-d61031d9da79}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{86a95116-4a2a-443a-a930-bae4bcbedc98}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{824d6feb-404b-4285-b5b5-9b2e196ad10c}">

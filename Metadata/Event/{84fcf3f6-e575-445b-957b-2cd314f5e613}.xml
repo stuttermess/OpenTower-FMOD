@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{84fcf3f6-e575-445b-957b-2cd314f5e613}">
 		<property name="name">
 			<value>mortpickup</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0b31fb64-4254-4c2d-9f4d-2d534e689390}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{4ab6754a-c016-4fb2-9ac9-4f084d55a8d2}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{be5af26f-c52f-4dd9-b9e2-245166652659}" />
+	<object class="MarkerTrack" id="{be5af26f-c52f-4dd9-b9e2-245166652659}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{0aa1f8ed-3e1d-4fc6-b70d-3c31dfc98de6}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{48fa38fc-1cf7-4319-82c6-1481d817743c}</destination>
 		</relationship>

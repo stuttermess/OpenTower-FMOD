@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{443b442c-09e6-4d14-a5b0-89e47b2acaff}">
 		<property name="name">
 			<value>chateausecret</value>
@@ -91,8 +91,8 @@
 			<destination>{0a934d5f-c5a3-4b3b-9606-c1cf17f1570e}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{7679d54a-25c3-41e2-896e-1c07af536a77}</destination>
 			<destination>{fcd36856-b284-41e7-8b71-68ef41cccdda}</destination>
+			<destination>{7679d54a-25c3-41e2-896e-1c07af536a77}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5147ddec-8b80-44c5-84ca-c314a2315c21}">
@@ -172,29 +172,6 @@
 			<destination>{5147ddec-8b80-44c5-84ca-c314a2315c21}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{7679d54a-25c3-41e2-896e-1c07af536a77}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>71.459387755102043</value>
-		</property>
-		<property name="transitionOffset">
-			<value>1</value>
-		</property>
-		<property name="looping">
-			<value>2</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{4b0d573c-b3ec-4960-bd1c-0b9da7fada55}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{da67f00d-41f2-4603-b993-1b4a502072aa}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{39932f50-ad41-4107-a468-b8a37b79d2e0}</destination>
-		</relationship>
-	</object>
 	<object class="LoopRegion" id="{fcd36856-b284-41e7-8b71-68ef41cccdda}">
 		<property name="position">
 			<value>80</value>
@@ -216,6 +193,29 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{39195ea9-8b6a-4bbb-ac71-82d37f6592c8}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{7679d54a-25c3-41e2-896e-1c07af536a77}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>71.459387755102043</value>
+		</property>
+		<property name="transitionOffset">
+			<value>1</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{4b0d573c-b3ec-4960-bd1c-0b9da7fada55}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{da67f00d-41f2-4603-b993-1b4a502072aa}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{39932f50-ad41-4107-a468-b8a37b79d2e0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{1596987c-c412-440d-ae2b-9391d4db9b40}">
@@ -253,17 +253,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{401f4453-2158-4c1d-a1e7-668dde3020fc}" />
-	<object class="ParameterCondition" id="{39932f50-ad41-4107-a468-b8a37b79d2e0}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{39195ea9-8b6a-4bbb-ac71-82d37f6592c8}">
 		<property name="minimum">
 			<value>1</value>
@@ -275,14 +264,25 @@
 			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterCondition" id="{39932f50-ad41-4107-a468-b8a37b79d2e0}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{40284912-8ff3-425c-b415-e5c9e101fb5c}" />
 	<object class="AutomationCurve" id="{e4a81ed3-aabf-4279-8c95-7a4c63ae3869}">
 		<relationship name="parameter">
 			<destination>{208f2cc8-11e6-4946-a1b8-71bf14f0ae6d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{14044140-7f8e-4601-8525-6817bcea1913}</destination>
 			<destination>{65f72336-58a7-4157-9d2a-223190483f83}</destination>
+			<destination>{14044140-7f8e-4601-8525-6817bcea1913}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2ab55f87-5b5e-4b28-a377-f377400a8624}" />
@@ -296,20 +296,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b22d2f13-1de4-489d-aedc-a33d5267daa7}" />
-	<object class="AutomationPoint" id="{14044140-7f8e-4601-8525-6817bcea1913}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{65f72336-58a7-4157-9d2a-223190483f83}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{14044140-7f8e-4601-8525-6817bcea1913}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9b8ce6dc-dce2-4e55-9809-2bbed8cee23f}">

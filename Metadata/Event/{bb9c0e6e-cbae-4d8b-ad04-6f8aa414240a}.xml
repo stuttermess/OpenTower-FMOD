@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{bb9c0e6e-cbae-4d8b-ad04-6f8aa414240a}">
 		<property name="name">
 			<value>warsecret</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{71efeccc-c45b-467f-8d57-0a68320c99e2}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{18f8ccb7-8a81-4c9c-ae1f-bf90549ff5a2}</destination>
 		</relationship>
@@ -61,8 +64,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{0e1fcf24-0863-4167-a228-b24409c8a186}" />
+	<object class="MarkerTrack" id="{0e1fcf24-0863-4167-a228-b24409c8a186}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{2dc24589-7db7-4b96-a5a7-5ced3319708c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{76b777fb-171f-4265-8bb8-155bb7e15fc9}</destination>
 		</relationship>

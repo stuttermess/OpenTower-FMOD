@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d687c6a8-5459-4f88-afdb-6467ab129779}">
 		<property name="name">
 			<value>brickok</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{49a733ff-382a-419a-8b6d-47d3cf940e07}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{e0dd476a-63b8-4086-b3cc-50305e8455ce}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{393b4642-2903-49f8-9cd4-26c8de3e186f}" />
-	<object class="MarkerTrack" id="{4d14b9b8-0311-4b1b-a0dc-baad52aad298}" />
+	<object class="MarkerTrack" id="{4d14b9b8-0311-4b1b-a0dc-baad52aad298}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{34f4e3f7-f8ee-4de0-a487-b62f70d0182e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a25b373f-8dec-419d-b976-b4c1020ed806}</destination>
 		</relationship>

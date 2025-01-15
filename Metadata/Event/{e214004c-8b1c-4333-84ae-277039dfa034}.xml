@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e214004c-8b1c-4333-84ae-277039dfa034}">
 		<property name="name">
 			<value>ram</value>
@@ -43,6 +43,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{d3952951-2aba-4e93-ba6f-bf55563dbd91}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{0dd1eb96-057d-4da1-9ec8-ee5611c7a1fa}</destination>
 		</relationship>
@@ -63,14 +66,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{e5ad6b81-5cae-4714-860c-6753167ff2b4}" />
+	<object class="MarkerTrack" id="{e5ad6b81-5cae-4714-860c-6753167ff2b4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{e8d7a959-5cab-497f-a9d7-4150d2a2f62b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{0217a269-ce68-45a1-aa4f-72086d0b332d}</destination>
 		</relationship>
@@ -79,6 +89,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{71bf375a-0003-4189-b2a3-c6d105ef1a51}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{788faeef-4971-43a6-83b8-201f1518bcc7}</destination>
 		</relationship>
@@ -87,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{c296eb59-c9d1-43be-8b56-43bea1043271}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{46c4412e-35e0-4afc-b597-d2bce4c0444e}</destination>
 		</relationship>
@@ -96,9 +112,9 @@
 	</object>
 	<object class="Timeline" id="{43492f1f-8b55-43ec-81b7-20a04aab773e}">
 		<relationship name="modules">
+			<destination>{46c4412e-35e0-4afc-b597-d2bce4c0444e}</destination>
 			<destination>{788faeef-4971-43a6-83b8-201f1518bcc7}</destination>
 			<destination>{0217a269-ce68-45a1-aa4f-72086d0b332d}</destination>
-			<destination>{46c4412e-35e0-4afc-b597-d2bce4c0444e}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{aff616b3-2ed6-4d6a-b96a-31860ec71abc}</destination>

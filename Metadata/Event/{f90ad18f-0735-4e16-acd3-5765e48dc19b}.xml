@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f90ad18f-0735-4e16-acd3-5765e48dc19b}">
 		<property name="name">
 			<value>title</value>
@@ -71,10 +71,10 @@
 	<object class="MarkerTrack" id="{06d50b13-5a7a-4543-9175-130e3518259d}" />
 	<object class="GroupTrack" id="{5a488ef5-f2ee-4818-b838-57557e1d6509}">
 		<relationship name="modules">
+			<destination>{2a212fc2-3cb1-4cf7-b937-fcd55a8bb8dd}</destination>
+			<destination>{8858aedf-d388-42f9-906a-5db89e1fbb13}</destination>
 			<destination>{3f8e6e02-6762-4833-bdab-0c4acf01dd63}</destination>
 			<destination>{e0890e52-8ff8-43e8-8e2a-70699a0976f5}</destination>
-			<destination>{8858aedf-d388-42f9-906a-5db89e1fbb13}</destination>
-			<destination>{2a212fc2-3cb1-4cf7-b937-fcd55a8bb8dd}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{41aafd65-6a09-4da7-942c-86ce582ff39c}</destination>
@@ -135,6 +135,19 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c89ddc4d-130d-4a29-90db-cc1796b48894}" />
+	<object class="TransitionDestinationSound" id="{2a212fc2-3cb1-4cf7-b937-fcd55a8bb8dd}">
+		<property name="length">
+			<value>1.2</value>
+		</property>
+	</object>
+	<object class="TransitionSourceSound" id="{8858aedf-d388-42f9-906a-5db89e1fbb13}">
+		<property name="length">
+			<value>1.2</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{9dbef138-76f3-41f0-8456-100e7ebb297a}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{3f8e6e02-6762-4833-bdab-0c4acf01dd63}">
 		<property name="length">
 			<value>14.4</value>
@@ -159,19 +172,6 @@
 		<relationship name="audioFile">
 			<destination>{d9a2757c-2934-4c79-a79e-33b61444e003}</destination>
 		</relationship>
-	</object>
-	<object class="TransitionSourceSound" id="{8858aedf-d388-42f9-906a-5db89e1fbb13}">
-		<property name="length">
-			<value>1.2</value>
-		</property>
-		<relationship name="fadeOutCurve">
-			<destination>{9dbef138-76f3-41f0-8456-100e7ebb297a}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionDestinationSound" id="{2a212fc2-3cb1-4cf7-b937-fcd55a8bb8dd}">
-		<property name="length">
-			<value>1.2</value>
-		</property>
 	</object>
 	<object class="EventMixerGroup" id="{41aafd65-6a09-4da7-942c-86ce582ff39c}">
 		<property name="volume">

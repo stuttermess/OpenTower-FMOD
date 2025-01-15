@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a9776ba8-c1e5-47ae-9a91-00fa1e340bd7}">
 		<property name="name">
 			<value>sewer</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{99ab5a02-a8c1-49f3-ba36-c3d2f99aa6b9}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{108995ca-11aa-47d9-8900-b40464e19e47}</destination>
 		</relationship>
@@ -64,8 +67,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{5328101e-a8e4-4a02-bdef-bce0c23f8d59}" />
+	<object class="MarkerTrack" id="{5328101e-a8e4-4a02-bdef-bce0c23f8d59}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{7276e265-b929-4d82-bccb-94a42959ac4b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a5761fe2-1069-48fb-a412-8a0d3bd4bdbb}</destination>
 		</relationship>
@@ -96,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{108995ca-11aa-47d9-8900-b40464e19e47}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{8906920c-1872-43e0-bd3f-9b9e4d123842}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7b8d7971-7d70-4172-a7ba-bb52e46c1eb2}">
 		<property name="name">
 			<value>spaceshiptemp</value>
@@ -61,12 +61,6 @@
 	<object class="EventAutomatableProperties" id="{f3394f96-86e4-4137-8e08-7937009dd0a3}">
 		<property name="dopplerScale">
 			<value>0</value>
-		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{b9e96ff5-f2bc-45aa-86e3-40cf2cf9f4a9}" />

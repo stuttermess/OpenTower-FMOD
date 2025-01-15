@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{31d4c97f-39da-439f-b11d-64fe6b962a1e}">
 		<property name="name">
 			<value>forestsecret</value>
@@ -287,8 +287,8 @@
 			<destination>{208f2cc8-11e6-4946-a1b8-71bf14f0ae6d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{14515505-7e7f-42d5-b331-5795fa1481b1}</destination>
 			<destination>{6983d0a8-3a2d-47b8-b1dd-b23ae18fbbbb}</destination>
+			<destination>{14515505-7e7f-42d5-b331-5795fa1481b1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0bc525bf-bf23-4c57-87ad-aed6f7f920dc}" />
@@ -297,19 +297,11 @@
 			<destination>{208f2cc8-11e6-4946-a1b8-71bf14f0ae6d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{8389837c-85fe-4ad0-a20e-d0559310ea18}</destination>
 			<destination>{8339882e-53ad-4ba9-941b-43754cf3cdd9}</destination>
+			<destination>{8389837c-85fe-4ad0-a20e-d0559310ea18}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ebb4a6f2-6763-41fc-8141-60107c373eb8}" />
-	<object class="AutomationPoint" id="{14515505-7e7f-42d5-b331-5795fa1481b1}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>3</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{6983d0a8-3a2d-47b8-b1dd-b23ae18fbbbb}">
 		<property name="position">
 			<value>1</value>
@@ -318,12 +310,12 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{8389837c-85fe-4ad0-a20e-d0559310ea18}">
+	<object class="AutomationPoint" id="{14515505-7e7f-42d5-b331-5795fa1481b1}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8339882e-53ad-4ba9-941b-43754cf3cdd9}">
@@ -332,6 +324,14 @@
 		</property>
 		<property name="value">
 			<value>3</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8389837c-85fe-4ad0-a20e-d0559310ea18}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>

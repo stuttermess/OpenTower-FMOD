@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5205fe97-bc78-4f34-a810-458a2821fe86}">
 		<property name="name">
 			<value>noisecrusher</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{cf25e4db-0fd6-4422-8c02-f619cad7a389}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{d227ccc4-a1db-45a3-9090-374b9036372c}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{655dfc37-75af-4f38-897b-39590cb25703}" />
+	<object class="MarkerTrack" id="{655dfc37-75af-4f38-897b-39590cb25703}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1c0f2ca2-c84c-424a-85c3-e49cd34a5cea}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{55d6ecad-b6b5-46be-bf5b-0adf969bf937}</destination>
 		</relationship>

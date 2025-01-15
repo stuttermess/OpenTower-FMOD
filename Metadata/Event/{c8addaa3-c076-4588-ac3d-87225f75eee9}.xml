@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c8addaa3-c076-4588-ac3d-87225f75eee9}">
 		<property name="name">
 			<value>jump</value>
@@ -62,10 +62,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{96064619-9fd2-43d3-b3df-794c29ed2d95}" />

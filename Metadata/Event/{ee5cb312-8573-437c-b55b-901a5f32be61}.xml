@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ee5cb312-8573-437c-b55b-901a5f32be61}">
 		<property name="name">
 			<value>windloop</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{508dcc8d-74cb-4c52-8292-2e6f66ce04da}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{3c12b62e-efe0-4e63-9305-84f9c6d15e52}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{73506e43-cb28-40a7-8015-407df6fff403}" />
-	<object class="MarkerTrack" id="{9fedaf2b-fc08-49ec-a907-7502c50297ea}" />
+	<object class="MarkerTrack" id="{9fedaf2b-fc08-49ec-a907-7502c50297ea}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{bf3af209-25ca-417e-914c-ac4e7801cb62}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{b7cd0e8a-a747-45b2-a2e4-b00b1ec0560e}</destination>
 		</relationship>

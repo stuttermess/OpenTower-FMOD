@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b4b30067-d33a-4324-9d66-4cf39fd717a6}">
 		<property name="name">
 			<value>gusrun</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{50de387c-ab01-4285-b0ff-24091c145e3e}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f2061359-0df8-44a3-94b3-51b14582965a}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{0fda56e1-4467-42f8-ad50-24bce996d4b6}" />
+	<object class="MarkerTrack" id="{0fda56e1-4467-42f8-ad50-24bce996d4b6}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{7e083293-4c6b-4e6f-8964-144007ff8218}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{84caa57a-a33a-44f1-aeaf-865739927bfc}</destination>
 		</relationship>

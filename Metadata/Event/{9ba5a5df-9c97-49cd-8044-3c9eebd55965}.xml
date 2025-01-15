@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9ba5a5df-9c97-49cd-8044-3c9eebd55965}">
 		<property name="name">
 			<value>collecttoppin</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{bf7c7500-8ba3-4235-9584-846f3c7c8752}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{6b2302db-8335-4d8d-b4e8-3ecaea0ba07c}</destination>
 		</relationship>
@@ -57,8 +60,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4f11fd65-b19f-4015-b9de-c9809310413c}" />
-	<object class="MarkerTrack" id="{cb54e489-c34d-48b6-b75c-e2b1a3ed46fd}" />
+	<object class="MarkerTrack" id="{cb54e489-c34d-48b6-b75c-e2b1a3ed46fd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{37134875-636c-44b5-82ba-53cd802b9a21}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e1f1dd0b-a720-4349-85fd-f4c4d233a68f}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{73971e19-01ae-465c-b7e6-911d47b723d5}">
 		<property name="name">
 			<value>slipbump</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{dc7e1260-658f-4723-b7ae-a33ff516df49}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{125a11da-c990-4807-9335-4f5982b58547}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{86129c2e-1450-46a3-adc0-001302509dc8}" />
+	<object class="MarkerTrack" id="{86129c2e-1450-46a3-adc0-001302509dc8}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{0fdaee90-4d76-469d-87b7-bf7f859bd5da}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{87d6894e-d861-47a8-99e1-c68e5a35ccfc}</destination>
 		</relationship>

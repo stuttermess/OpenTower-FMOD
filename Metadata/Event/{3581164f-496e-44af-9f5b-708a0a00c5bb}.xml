@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{3581164f-496e-44af-9f5b-708a0a00c5bb}">
 		<property name="name">
 			<value>mayhem</value>
@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{57d94dc3-264c-4c5f-a71a-a5879106144f}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{4e736748-a29a-4663-a174-edd34d497e6c}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{77e3548c-84da-48a5-87f7-1a4c237acfc2}" />
+	<object class="MarkerTrack" id="{77e3548c-84da-48a5-87f7-1a4c237acfc2}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{7ad39c0a-7a4a-436f-8dac-0dfc70f553b8}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{f6c73d07-dec7-4da2-a6ab-cb8057153294}</destination>
 		</relationship>

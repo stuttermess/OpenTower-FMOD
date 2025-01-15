@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1efe55fd-42a6-4187-987a-3f67f7c27f8f}">
 		<property name="name">
 			<value>nosound</value>
@@ -38,6 +38,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{60bddf3e-9847-4dd5-9b41-5e48382d9ca2}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{b4fa1118-2753-4fdd-8a57-869e527e528b}</destination>
 		</relationship>
@@ -54,7 +57,11 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9a078572-5588-486e-8b24-3525867670a8}" />
-	<object class="MarkerTrack" id="{57d31358-9fd7-4c60-a40d-e08c0181281c}" />
+	<object class="MarkerTrack" id="{57d31358-9fd7-4c60-a40d-e08c0181281c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="Timeline" id="{f02eb59c-a9cb-475d-bea8-8c2e22dfea2f}" />
 	<object class="EventMixerMaster" id="{b4fa1118-2753-4fdd-8a57-869e527e528b}">
 		<relationship name="effectChain">

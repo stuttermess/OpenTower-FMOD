@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2b221bf8-25b0-473e-a08f-42d597032768}">
 		<property name="name">
 			<value>ninjakicks</value>
@@ -61,10 +61,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{736dbacb-0e68-4901-a3ba-9c79e4effc11}" />
@@ -84,12 +84,12 @@
 	</object>
 	<object class="Timeline" id="{e8a097ba-81ae-4af2-9706-4f3613ad5383}">
 		<relationship name="modules">
-			<destination>{dc28360d-1ac8-4845-8420-b1642d4834e2}</destination>
 			<destination>{df53c5e4-024d-47d6-9cbf-2761fbca5f96}</destination>
 			<destination>{e033830f-8541-4cef-ad7c-97a1df8a1bfb}</destination>
-			<destination>{731006d8-eec3-4e23-abe2-74ee616a5e5c}</destination>
+			<destination>{dc28360d-1ac8-4845-8420-b1642d4834e2}</destination>
 			<destination>{4d51f932-1e06-4fd1-9dd4-db70d9637460}</destination>
 			<destination>{b54c0983-a873-4850-8ec2-53b8d415ca74}</destination>
+			<destination>{731006d8-eec3-4e23-abe2-74ee616a5e5c}</destination>
 			<destination>{01ed60b9-e7e5-4e91-a040-7377cb19e11e}</destination>
 		</relationship>
 	</object>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{7922530a-a8f7-47fd-b0fc-5bc87d3cece0}">
 		<property name="builtBanksOutputDirectory">
 			<value>../../../GameMakerStudio2/CheesusCrust/datafiles/data/sound</value>
@@ -20,7 +20,7 @@
 			<destination>{fa69ce19-1294-4058-ba62-db3fc237c455}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{ed5212eb-c2b9-440d-9b49-27672b8c1eaa}</destination>
+			<destination>{64c6e38d-44ae-4592-b15e-fa383f6452a9}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
 			<destination>{3ec376c7-9dab-4e28-9892-9388771afac6}</destination>

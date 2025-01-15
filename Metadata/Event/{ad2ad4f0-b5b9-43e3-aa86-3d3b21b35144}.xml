@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ad2ad4f0-b5b9-43e3-aa86-3d3b21b35144}">
 		<property name="note">
 			<value>not barrelslopejump</value>
@@ -46,6 +46,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{75f2e9ba-39b1-48a4-937f-62fdb480fd20}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{e3aab849-59d2-47c2-a432-19fa3850be83}</destination>
 		</relationship>
@@ -66,14 +69,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{6aa01f3c-e42f-49ce-a685-d556316dd383}" />
+	<object class="MarkerTrack" id="{6aa01f3c-e42f-49ce-a685-d556316dd383}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{ba4c62c0-2cf1-43e4-aeef-bb735b4eaf3e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a90a5646-d709-429a-90ce-5c0598affc7f}</destination>
 		</relationship>
@@ -82,6 +92,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{910b6722-bec1-4579-9aaf-83e725060271}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{2165f0ef-6071-4774-abf9-990b48937b1d}</destination>
 		</relationship>
@@ -90,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{0239bd30-d98e-4fb7-a7a6-f6fc4cf4925f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e96a0636-3efd-40c2-846f-d5be9e848973}</destination>
 		</relationship>
@@ -100,8 +116,8 @@
 	<object class="Timeline" id="{e93c5b0c-3e77-44ee-8f20-0dd16308cdb1}">
 		<relationship name="modules">
 			<destination>{2165f0ef-6071-4774-abf9-990b48937b1d}</destination>
-			<destination>{e96a0636-3efd-40c2-846f-d5be9e848973}</destination>
 			<destination>{a90a5646-d709-429a-90ce-5c0598affc7f}</destination>
+			<destination>{e96a0636-3efd-40c2-846f-d5be9e848973}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{0632cf60-0a3e-4e76-9bf8-2f3ca02d7b5a}</destination>

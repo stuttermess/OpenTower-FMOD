@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b2a7e7ab-46d5-48da-8e50-5edaefec3c85}">
 		<property name="name">
 			<value>headthrow</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0f80f99e-ef55-46ae-9dc2-6ffade60c5f4}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{4aae5900-5f94-4c05-b493-9a9ac464cdc2}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{35cb3e7f-e904-45cc-aa42-5d481c7845c9}" />
+	<object class="MarkerTrack" id="{35cb3e7f-e904-45cc-aa42-5d481c7845c9}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{a9c83c9e-e694-438b-8fb0-496a5d4699ca}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{ca88698c-bfb3-4dad-a83d-cb8ad99167eb}</destination>
 		</relationship>
@@ -150,8 +160,8 @@
 			<destination>{47ad2a36-a566-42ff-8e93-2b1f67077a36}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{3135ccc5-1f87-4f8e-8f54-95da11c477d9}</destination>
 			<destination>{df2f64fe-9314-4830-afce-d6e914df495b}</destination>
+			<destination>{3135ccc5-1f87-4f8e-8f54-95da11c477d9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{4409add9-9c40-40b7-a509-ce8d3a9947c1}" />
@@ -164,20 +174,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{05943b5a-0659-4c4a-9cf5-80b89bb5e568}" />
-	<object class="AutomationPoint" id="{3135ccc5-1f87-4f8e-8f54-95da11c477d9}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{df2f64fe-9314-4830-afce-d6e914df495b}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>-20</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{3135ccc5-1f87-4f8e-8f54-95da11c477d9}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 </objects>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f5ce7e00-77ee-46f6-a673-b306ff7dc7c2}">
 		<property name="name">
 			<value>rampjump</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{23e79112-d2a4-4686-a1e5-efc464bebbca}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c918a995-6a0c-429d-a8c5-fa8a4aa5900f}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{17386ce5-7df7-4a47-b2e0-6732bf25d265}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{17386ce5-7df7-4a47-b2e0-6732bf25d265}" />
 	<object class="GroupTrack" id="{9ea1cf4d-ed06-4de0-81f8-e39ce1829972}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e1543934-a22b-422b-bba7-f7ed411ad1da}</destination>
 		</relationship>

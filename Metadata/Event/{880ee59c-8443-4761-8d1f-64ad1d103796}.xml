@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{880ee59c-8443-4761-8d1f-64ad1d103796}">
 		<property name="name">
 			<value>muffledscream</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{4cc03b28-bddb-4979-8ec1-03e14d6ab3ed}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c1005947-2b54-4216-aa16-3e4ffd1d4c24}</destination>
 		</relationship>
@@ -58,8 +61,15 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9708cac6-8390-4661-829a-4de7d4ab894e}" />
-	<object class="MarkerTrack" id="{f6735fe2-e6a4-4c66-9005-79b001bce153}" />
+	<object class="MarkerTrack" id="{f6735fe2-e6a4-4c66-9005-79b001bce153}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{a6a26c45-3470-4ae3-a08e-d3bd6fffbefd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{1a764729-525f-43fc-8e47-b4e2ad1da92e}</destination>
 		</relationship>
@@ -71,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{f71f6543-1584-4808-979f-edf7f80c8e0b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{efb16f9e-6868-4af2-81e1-d3fd05ed2590}</destination>
 		</relationship>
@@ -83,8 +96,8 @@
 	</object>
 	<object class="Timeline" id="{240253c4-89c3-4bde-a17a-624e220863ac}">
 		<relationship name="modules">
-			<destination>{44175123-b15a-4acb-8f25-83d8679e3ae3}</destination>
 			<destination>{b71eedb6-db81-4402-aeb3-3018f34a076f}</destination>
+			<destination>{44175123-b15a-4acb-8f25-83d8679e3ae3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c1005947-2b54-4216-aa16-3e4ffd1d4c24}">
@@ -105,6 +118,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{ad3fbef4-42c9-41b3-becd-fd80aebeb144}" />
 	<object class="AutomationTrack" id="{1a764729-525f-43fc-8e47-b4e2ad1da92e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{341cfe4b-eab7-48df-b8ca-cea7a669131f}</destination>
 		</relationship>
@@ -141,6 +157,9 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{efb16f9e-6868-4af2-81e1-d3fd05ed2590}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{750b604e-9099-42fd-94cf-326c35b9dc7a}</destination>
 		</relationship>
@@ -252,8 +271,8 @@
 			<destination>{4907d289-e8c9-4840-8350-3579f63d573d}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{fb55e71b-2c90-4610-a28a-7fdff7af3927}</destination>
 			<destination>{d94cb8ed-1493-4678-8886-ef797174222a}</destination>
+			<destination>{fb55e71b-2c90-4610-a28a-7fdff7af3927}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0c2df53c-295a-42c0-9fe4-6f727414c461}" />
@@ -286,20 +305,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{809cc99c-66e6-4ce6-b182-7b3dda2c346d}" />
-	<object class="AutomationPoint" id="{fb55e71b-2c90-4610-a28a-7fdff7af3927}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{d94cb8ed-1493-4678-8886-ef797174222a}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="value">
 			<value>-12</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{fb55e71b-2c90-4610-a28a-7fdff7af3927}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fc95e07c-b9af-4904-a0e4-ae487c64b416}">

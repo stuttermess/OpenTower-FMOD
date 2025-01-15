@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9e62e923-e17c-4af9-a9b7-a68b91dbbbc1}">
 		<property name="name">
 			<value>escapespawn</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c7a76930-831e-44d1-a2bb-d8da5fae969d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{26620ad8-2489-4991-b6a4-6853ef494079}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{155c0125-7b69-4a48-88b2-d01d78985336}" />
+	<object class="MarkerTrack" id="{155c0125-7b69-4a48-88b2-d01d78985336}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{1705501e-29f4-4349-a2d2-4a88ed870a39}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{931cc43a-f412-410d-8851-3789de459dcd}</destination>
 		</relationship>

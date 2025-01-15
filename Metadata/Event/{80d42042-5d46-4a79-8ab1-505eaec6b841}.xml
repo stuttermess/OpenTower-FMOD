@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{80d42042-5d46-4a79-8ab1-505eaec6b841}">
 		<property name="name">
 			<value>policesiren</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{19dbcc1b-fdad-4443-82b7-c2695c914d1e}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{28b35d95-cece-43d6-88dd-ec52431b938a}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{fbec65fe-d627-40de-874c-a48adec7a856}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{fbec65fe-d627-40de-874c-a48adec7a856}" />
 	<object class="GroupTrack" id="{b8bc869f-bdfb-4b09-bfd7-a33e968c37ec}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{28893df1-568e-4c29-babf-e865cc183636}</destination>
 		</relationship>

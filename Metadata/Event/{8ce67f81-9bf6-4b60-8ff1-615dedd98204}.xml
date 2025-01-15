@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8ce67f81-9bf6-4b60-8ff1-615dedd98204}">
 		<property name="name">
 			<value>fakepep</value>
@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{5b3be92f-f935-4e32-a7b9-a72dffc6230f}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{f9bdeb6a-a8ef-4744-bb48-033ede949ee3}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{e1bf05dd-cd5c-464a-a055-95d172e02d1b}" />
+	<object class="MarkerTrack" id="{e1bf05dd-cd5c-464a-a055-95d172e02d1b}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{28197ffa-80e3-40f8-aefc-be2b0c8d4578}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{14fe2fdf-908e-4d54-a84f-c8a56f8b6940}</destination>
 		</relationship>

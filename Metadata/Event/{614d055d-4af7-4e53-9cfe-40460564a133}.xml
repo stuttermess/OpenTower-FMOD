@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{614d055d-4af7-4e53-9cfe-40460564a133}">
 		<property name="name">
 			<value>checkpoint</value>
@@ -56,7 +56,14 @@
 			<destination>{f18d5877-3d50-41c0-b6c0-9be04ada9938}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{9758ebdf-9ed4-4d3f-ae5a-f8ebb99bc695}" />
+	<object class="EventAutomatableProperties" id="{9758ebdf-9ed4-4d3f-ae5a-f8ebb99bc695}">
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>900</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{b7fbb091-a160-4e8d-a6b7-cffa0f88ad3e}" />
 	<object class="GroupTrack" id="{d7389522-7d04-4bb2-aa8f-7c83cca01ff6}">
 		<relationship name="modules">

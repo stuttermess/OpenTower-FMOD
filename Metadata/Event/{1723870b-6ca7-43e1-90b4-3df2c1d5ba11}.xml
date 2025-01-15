@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1723870b-6ca7-43e1-90b4-3df2c1d5ba11}">
 		<property name="name">
 			<value>wayoftheitalian</value>
@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{fbaf91e6-ac3d-4fc6-9923-279eb92b1ee5}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{8fce7bf6-f328-42be-9af8-6ede322ac624}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{09e2d6ce-ca5a-4278-be57-59a0e9a2d301}" />
+	<object class="MarkerTrack" id="{09e2d6ce-ca5a-4278-be57-59a0e9a2d301}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{7a5297ce-9ab7-4db0-bd7f-0590d004a129}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{b6f19525-3c10-492b-8f2f-e92e1d85ec33}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{80ebd8ff-8fa7-44f0-b133-624561c13016}">
 		<property name="name">
 			<value>escaperumble</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{42f036b0-ec74-43d8-ae54-97c7bd57e49d}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{b5178341-ee63-4b90-b0ad-e094bee2f732}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{b889f585-4693-451c-8288-0734f6b07e80}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{b889f585-4693-451c-8288-0734f6b07e80}" />
 	<object class="GroupTrack" id="{52cae7a7-3022-45ec-8b75-1d8893806a75}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{7e2b343b-1618-4bba-82ec-8318e61ad712}</destination>
 		</relationship>

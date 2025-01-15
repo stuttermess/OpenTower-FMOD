@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f021eb66-571f-4793-951e-750864f83cbe}">
 		<property name="name">
 			<value>knightslide</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{c09d2173-3a7a-483f-9ac7-03ee1becff70}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{9476fcfc-4c13-42f6-85c1-1052c2073c29}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{4a841288-23d3-474a-a6fc-2fe1267841dd}" />
+	<object class="MarkerTrack" id="{4a841288-23d3-474a-a6fc-2fe1267841dd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{8262a765-7cfe-45a8-a0ad-8ac4c66dd0e2}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{f3826e88-6f18-4bb6-b7d3-69ddcbfb4ba5}</destination>
 		</relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{71605092-e497-4987-a547-c049d7798290}">
 		<property name="name">
 			<value>balloonpop</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{af54fe01-e712-4737-9540-04958faca059}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{73813255-4165-446e-922a-a50f36cd39d7}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{01ef972c-4d1e-45e5-8dbf-27d935786c74}" />
+	<object class="MarkerTrack" id="{01ef972c-4d1e-45e5-8dbf-27d935786c74}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{6d065e99-b13b-4c64-ae15-c7a566cccb01}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{52231b07-d721-452b-9361-1e225a4dc54e}</destination>
 		</relationship>

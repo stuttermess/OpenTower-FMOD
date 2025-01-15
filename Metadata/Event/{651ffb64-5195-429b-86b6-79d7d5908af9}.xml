@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{651ffb64-5195-429b-86b6-79d7d5908af9}">
 		<property name="name">
 			<value>geromegot</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{cb8d6ee7-0567-4335-ace6-4aa398d6cbf6}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{313a5e44-bd6d-422f-98e6-6e98b43ec82d}</destination>
 		</relationship>
@@ -56,9 +59,23 @@
 			<destination>{f18d5877-3d50-41c0-b6c0-9be04ada9938}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{e292c244-f2bd-415f-9d8b-a5cf92cb03a8}" />
-	<object class="MarkerTrack" id="{eed6c1f4-73e4-49b6-a74c-69d8b8c98b77}" />
+	<object class="EventAutomatableProperties" id="{e292c244-f2bd-415f-9d8b-a5cf92cb03a8}">
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>900</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{eed6c1f4-73e4-49b6-a74c-69d8b8c98b77}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{caab2323-ca3c-48f0-9eac-bbc60ab2e125}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{0f8c3bb2-61a4-410a-895b-5899b4d48478}</destination>
 		</relationship>

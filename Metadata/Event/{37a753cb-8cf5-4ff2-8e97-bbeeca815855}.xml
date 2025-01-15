@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{37a753cb-8cf5-4ff2-8e97-bbeeca815855}">
 		<property name="name">
 			<value>ufo</value>
@@ -41,12 +41,15 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{da5e92fc-46ba-415a-8f5d-8f5b031e5037}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{9b6d24c9-ed36-449d-bbe6-ebdf0b476135}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{9d85e00a-1551-4e2f-93cf-78191977008e}</destination>
 			<destination>{e6d3581f-915b-4edb-97b8-eec2911b1de2}</destination>
+			<destination>{9d85e00a-1551-4e2f-93cf-78191977008e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{306bded8-99fc-4b8c-81d4-f0c247c07684}</destination>
@@ -68,8 +71,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{6d2ce86e-4a00-4855-ba20-302e9cf8f2b4}" />
+	<object class="MarkerTrack" id="{6d2ce86e-4a00-4855-ba20-302e9cf8f2b4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{bbdde2f3-3cb6-401e-b223-e708d415331c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{48864855-ad7d-4a77-b529-bece036ad94c}</destination>
 			<destination>{cf2fcf6a-aaaa-41d8-8465-314cb87609bc}</destination>
@@ -102,19 +112,22 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{9b6d24c9-ed36-449d-bbe6-ebdf0b476135}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{774b496f-7e3e-4973-920a-370c82c6bd5a}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{e6d3581f-915b-4edb-97b8-eec2911b1de2}">
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{9d85e00a-1551-4e2f-93cf-78191977008e}">
 		<property name="start">
 			<value>1</value>
 		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionSourceSound" id="{e6d3581f-915b-4edb-97b8-eec2911b1de2}">
 		<property name="length">
 			<value>0</value>
 		</property>

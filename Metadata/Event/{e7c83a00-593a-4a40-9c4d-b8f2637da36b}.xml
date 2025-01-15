@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e7c83a00-593a-4a40-9c4d-b8f2637da36b}">
 		<property name="name">
 			<value>graveyard</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b397c6a0-a11e-46bb-9c9a-e9e1a7625b45}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="automationTracks">
 			<destination>{a79edf1e-930d-4990-8b29-e34050711f06}</destination>
 		</relationship>
@@ -68,8 +71,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{b144bf74-65f9-4ce9-aa84-9c48da851c20}" />
+	<object class="MarkerTrack" id="{b144bf74-65f9-4ce9-aa84-9c48da851c20}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{6b319d2c-85a6-4f94-ad0b-e74c21cf2a8a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{1ed5ad28-e5f4-416e-9266-d3bebdf0b69a}</destination>
 			<destination>{d856ed87-dae6-4604-ae66-72b8868e7772}</destination>
@@ -102,6 +112,9 @@
 		</relationship>
 	</object>
 	<object class="AutomationTrack" id="{a79edf1e-930d-4990-8b29-e34050711f06}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="automator">
 			<destination>{40d8156e-be72-4f40-be5d-0c876625791d}</destination>
 		</relationship>
@@ -240,8 +253,8 @@
 			<destination>{c9c7978b-6640-4951-9f9c-c84b396851be}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{cccf8bf9-28e9-4f32-8548-f8521d9648a5}</destination>
 			<destination>{9ef2010b-1904-4e72-aa42-d97879ee97c7}</destination>
+			<destination>{cccf8bf9-28e9-4f32-8548-f8521d9648a5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{36900af5-be1b-4c3a-a7d7-c87d2f245871}" />
@@ -292,20 +305,20 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{91a060d7-cce4-40c1-a3b8-c15aab8d65ab}" />
-	<object class="AutomationPoint" id="{cccf8bf9-28e9-4f32-8548-f8521d9648a5}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{9ef2010b-1904-4e72-aa42-d97879ee97c7}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{cccf8bf9-28e9-4f32-8548-f8521d9648a5}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 </objects>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{195fc466-b83d-4de9-8dd4-00c017731fb7}">
 		<property name="name">
 			<value>meatphobia</value>

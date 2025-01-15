@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{119e505b-512a-49a5-8085-2c6bc35253c4}">
 		<property name="name">
 			<value>musicmuffle</value>
@@ -24,16 +24,5 @@
 		<relationship name="modulators">
 			<destination>{4ab79f2d-ae6d-4399-b553-cf87c085f803}</destination>
 		</relationship>
-	</object>
-	<object class="SeekModulator" id="{4ab79f2d-ae6d-4399-b553-cf87c085f803}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>cursorPosition</value>
-		</property>
-		<property name="clockSource">
-			<value>1</value>
-		</property>
-		<property name="speedAscending">
-			<value>10</value>
-		</property>
 	</object>
 </objects>

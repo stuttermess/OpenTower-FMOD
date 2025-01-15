@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4d599e73-2f4f-4c66-86d4-b7d608364300}">
 		<property name="name">
 			<value>mach2bump</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{405faf2b-bece-4827-9f27-905bf70fe84a}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{3b7a4be7-db24-450a-b6cd-ffc67533ff83}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{116ab5d7-d331-42e7-a74c-4343a2f190ee}" />
+	<object class="MarkerTrack" id="{116ab5d7-d331-42e7-a74c-4343a2f190ee}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{077ddc3f-6a1b-4cab-9109-cce2fc4d06c7}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{d001652a-f92f-4a02-a842-ea8f6f5fda74}</destination>
 		</relationship>

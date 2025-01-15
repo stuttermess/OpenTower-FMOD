@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e466ee53-a7c2-4470-9a31-8664769814d4}">
 		<property name="name">
 			<value>intro</value>
@@ -133,9 +133,6 @@
 		<relationship name="markerTrack">
 			<destination>{82b42c36-15f0-459c-8f39-7bf99792ed7e}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{9f260e7e-e363-4592-a78d-7b0f57dd2a9b}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{7b0dcb17-77fc-41e5-8cf7-e5117fb539c6}">
 		<relationship name="effects">
@@ -167,17 +164,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c13b7dfb-a630-423a-9129-35d471d42756}" />
-	<object class="ParameterCondition" id="{9f260e7e-e363-4592-a78d-7b0f57dd2a9b}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{283b5fa7-5f17-4fab-96a0-bfb3bca94a78}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{9a82571f-ddef-4569-b867-12a69deb4cce}" />
 	<object class="MixerBusFader" id="{5200d0e1-f1fd-40ec-9c03-fe7e399b1fb9}" />
 </objects>

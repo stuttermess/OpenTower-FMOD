@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9c9162ee-4b47-477d-b9e7-00aa7033761e}">
 		<property name="name">
 			<value>noisegoblinbow</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{f1d801f7-8abd-47f0-919d-4996c2929731}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{b0828dfe-1ebb-43cc-966b-8d31fe25fd7d}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{e30dc5d8-0a35-4906-98e7-922b6418ae30}" />
+	<object class="MarkerTrack" id="{e30dc5d8-0a35-4906-98e7-922b6418ae30}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{2e694e2a-6f1c-4c34-a4cd-d88112a234da}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{424a7e1a-6c2e-403b-be7f-fd949cb99d5e}</destination>
 		</relationship>

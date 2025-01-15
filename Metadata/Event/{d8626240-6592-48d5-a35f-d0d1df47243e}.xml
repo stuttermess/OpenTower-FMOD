@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d8626240-6592-48d5-a35f-d0d1df47243e}">
 		<property name="name">
 			<value>gotsupertaunt</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{0eb9b915-d2d7-4d9d-acb5-755662926416}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{19fb763c-33d5-4a52-abb1-5ecd67d4b420}</destination>
 		</relationship>
@@ -60,18 +63,19 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{3331cdcf-c227-44e2-8a94-eb06728b355c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{3331cdcf-c227-44e2-8a94-eb06728b355c}" />
 	<object class="GroupTrack" id="{99c0f0be-c85a-43e9-807e-a80b07cd2ebe}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
-			<destination>{ecc374a6-231b-4bcc-ab15-067fdc5f3c6e}</destination>
 			<destination>{7ef21bfa-fb7f-4d47-9720-a5683d76e3cd}</destination>
+			<destination>{ecc374a6-231b-4bcc-ab15-067fdc5f3c6e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2736de80-962d-408a-bfdb-58b2eae189ea}</destination>
@@ -79,8 +83,8 @@
 	</object>
 	<object class="Timeline" id="{20b6d2fa-6245-42b4-8662-43053e9c7106}">
 		<relationship name="modules">
-			<destination>{ecc374a6-231b-4bcc-ab15-067fdc5f3c6e}</destination>
 			<destination>{7ef21bfa-fb7f-4d47-9720-a5683d76e3cd}</destination>
+			<destination>{ecc374a6-231b-4bcc-ab15-067fdc5f3c6e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{19fb763c-33d5-4a52-abb1-5ecd67d4b420}">
@@ -100,20 +104,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{719be652-14a7-4842-bf3a-76205d04fc7c}" />
-	<object class="SingleSound" id="{ecc374a6-231b-4bcc-ab15-067fdc5f3c6e}">
-		<property name="length">
-			<value>0.32000000000000001</value>
-		</property>
-		<property name="volume">
-			<value>6.5</value>
-		</property>
-		<property name="pitch">
-			<value>1</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{041cc224-d4d1-4f92-84ad-32c86a04dfbe}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{7ef21bfa-fb7f-4d47-9720-a5683d76e3cd}">
 		<property name="start">
 			<value>0.32000000000000001</value>
@@ -123,6 +113,20 @@
 		</property>
 		<property name="timelockedOffset">
 			<value>0.41999999999999998</value>
+		</property>
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{041cc224-d4d1-4f92-84ad-32c86a04dfbe}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ecc374a6-231b-4bcc-ab15-067fdc5f3c6e}">
+		<property name="length">
+			<value>0.32000000000000001</value>
+		</property>
+		<property name="volume">
+			<value>6.5</value>
 		</property>
 		<property name="pitch">
 			<value>1</value>

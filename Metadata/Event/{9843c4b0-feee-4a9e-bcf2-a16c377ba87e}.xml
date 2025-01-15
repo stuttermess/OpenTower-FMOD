@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9843c4b0-feee-4a9e-bcf2-a16c377ba87e}">
 		<property name="name">
 			<value>fireass</value>
@@ -61,12 +61,6 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
-		</property>
 	</object>
 	<object class="MarkerTrack" id="{7830ab82-581d-4963-a715-85ec760da38b}" />
 	<object class="GroupTrack" id="{0d72d365-7596-4197-866b-b4c1f7dbc858}">
@@ -78,9 +72,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{b63d3376-1190-4925-8084-3b6b65b22a54}">
-		<relationship name="modules">
-			<destination>{0252c8eb-3508-43e1-b658-f7b758e06ae2}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{4fc5f821-38b9-423b-8081-a1362dbc102c}</destination>
 		</relationship>
@@ -88,7 +79,6 @@
 	<object class="Timeline" id="{c644fc66-e742-445c-8e1a-9defc7af0c72}">
 		<relationship name="modules">
 			<destination>{6f135e42-03ba-428a-94bf-c78925a6672a}</destination>
-			<destination>{0252c8eb-3508-43e1-b658-f7b758e06ae2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b5a9fe44-455c-4e46-a0b7-cab43dde566f}">
@@ -131,17 +121,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{b5a9fe44-455c-4e46-a0b7-cab43dde566f}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{0252c8eb-3508-43e1-b658-f7b758e06ae2}">
-		<property name="length">
-			<value>1.23</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.050000000000000003</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{5b631a78-1d24-4bcb-9995-8e81156f6a34}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4fc5f821-38b9-423b-8081-a1362dbc102c}">

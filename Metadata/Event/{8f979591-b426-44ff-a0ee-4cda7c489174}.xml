@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8f979591-b426-44ff-a0ee-4cda7c489174}">
 		<property name="name">
 			<value>jetpackloop</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{198d7ffb-9646-45e6-9e40-1fe048eb9e71}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{cd1fe426-06b6-4246-bc82-4a57453514d9}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{7c2a1767-7b88-447c-a69c-5b91f349d357}" />
+	<object class="MarkerTrack" id="{7c2a1767-7b88-447c-a69c-5b91f349d357}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{04e1e800-f8a3-4775-bd7b-fb06911ae3f6}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e57bbf78-2414-4c19-96fd-0aa0becd232e}</destination>
 		</relationship>

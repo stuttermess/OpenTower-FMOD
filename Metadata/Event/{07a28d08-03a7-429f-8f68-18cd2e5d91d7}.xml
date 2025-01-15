@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{07a28d08-03a7-429f-8f68-18cd2e5d91d7}">
 		<property name="name">
 			<value>spaceship</value>
@@ -43,6 +43,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{ad41197e-cd47-4f89-b40f-a81b202aec53}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{9ea0834b-27f2-4a63-8846-6f9b709cc05e}</destination>
 		</relationship>
@@ -62,15 +65,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{d44e7cbf-43e1-4c89-8459-482d1447fff4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{d44e7cbf-43e1-4c89-8459-482d1447fff4}" />
 	<object class="GroupTrack" id="{29191f95-63aa-46f7-af78-fff9b637daf3}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{efc5bcae-9782-4034-a0b0-cf026bd2543d}</destination>
 		</relationship>
@@ -79,6 +83,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{165b8f8a-b424-4807-8e60-276ad4f130f4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{b9ff930e-113b-4241-8f48-912661acb807}</destination>
 		</relationship>
@@ -87,6 +94,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{c02be2d9-8b4f-4f4a-84da-9981a4019f79}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{88f40d72-cb06-4183-bcd4-386d679a15b9}</destination>
 		</relationship>
@@ -96,8 +106,8 @@
 	</object>
 	<object class="Timeline" id="{a78acf94-90da-45f1-bd56-db9a436ba34e}">
 		<relationship name="modules">
-			<destination>{efc5bcae-9782-4034-a0b0-cf026bd2543d}</destination>
 			<destination>{b9ff930e-113b-4241-8f48-912661acb807}</destination>
+			<destination>{efc5bcae-9782-4034-a0b0-cf026bd2543d}</destination>
 			<destination>{88f40d72-cb06-4183-bcd4-386d679a15b9}</destination>
 		</relationship>
 	</object>

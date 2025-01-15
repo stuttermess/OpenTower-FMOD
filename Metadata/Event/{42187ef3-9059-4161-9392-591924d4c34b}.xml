@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{42187ef3-9059-4161-9392-591924d4c34b}">
 		<property name="name">
 			<value>tombstone</value>
@@ -47,6 +47,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{5e20646f-ee45-4c61-83b0-57226bd0a1d1}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{6c7b0ca2-37f2-457a-9c08-53ed0fd67680}</destination>
 		</relationship>
@@ -67,8 +70,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{251ba241-820f-48e6-9f8c-abc8e1cee4b4}" />
+	<object class="MarkerTrack" id="{251ba241-820f-48e6-9f8c-abc8e1cee4b4}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{4a238257-a20f-4d9c-b362-57ae956316e8}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e2ac9d5d-9ee8-403e-b820-0585f3ef9abf}</destination>
 		</relationship>

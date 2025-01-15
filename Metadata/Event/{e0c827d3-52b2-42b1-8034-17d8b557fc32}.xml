@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e0c827d3-52b2-42b1-8034-17d8b557fc32}">
 		<property name="name">
 			<value>finale_explosion</value>
@@ -62,12 +62,6 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
-		</property>
 	</object>
 	<object class="MarkerTrack" id="{0dd5cb92-4697-4b98-90ae-86a37452f073}" />
 	<object class="GroupTrack" id="{9862c55f-b207-405a-b87d-0c1386d2c0e6}">
@@ -97,8 +91,8 @@
 	<object class="Timeline" id="{513bc9a4-7487-4b2b-96ee-888651acb658}">
 		<relationship name="modules">
 			<destination>{0651be92-304e-4b85-ae8d-b0294aa92dae}</destination>
-			<destination>{c32e346c-340a-465b-8a18-7749805147c2}</destination>
 			<destination>{075c3e7c-b4bf-4cac-9b67-38e75c314adb}</destination>
+			<destination>{c32e346c-340a-465b-8a18-7749805147c2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c585d397-b416-46f3-9544-ea62881238ea}">

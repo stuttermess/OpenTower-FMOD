@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{300cce90-f254-44e0-851c-f29fa80e328b}">
 		<property name="name">
 			<value>finaleexplosion</value>
@@ -60,12 +60,6 @@
 	<object class="EventAutomatableProperties" id="{7112e4fb-b611-4efc-9248-273226df65b1}">
 		<property name="dopplerScale">
 			<value>0</value>
-		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{0ee9d8bc-021a-4ce0-b9ee-179f096304c1}" />

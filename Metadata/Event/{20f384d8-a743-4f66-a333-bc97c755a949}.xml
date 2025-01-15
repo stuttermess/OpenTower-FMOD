@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{20f384d8-a743-4f66-a333-bc97c755a949}">
 		<property name="name">
 			<value>fireassN</value>
@@ -42,6 +42,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{670c2f89-e03c-476d-9d8c-2e6a105a44d6}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c27a7777-cdfd-459c-8c9b-af43782b4d8d}</destination>
 		</relationship>
@@ -61,15 +64,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{d9f383f5-312a-47ae-a4b7-9d8e790a350e}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{d9f383f5-312a-47ae-a4b7-9d8e790a350e}" />
 	<object class="GroupTrack" id="{787252d0-93eb-43e1-a965-d1bcce3115b0}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{a5e91e90-ed9b-40f0-ba8d-b116aa1c4e09}</destination>
 		</relationship>
@@ -78,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{5438892f-6ea8-4ddc-b49c-042ce08fbefd}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{d2235865-3116-4d86-8fdb-2c13f9dc047f}</destination>
 		</relationship>
@@ -87,8 +94,8 @@
 	</object>
 	<object class="Timeline" id="{afc40483-229c-4d6e-915c-78d9ebeac1a7}">
 		<relationship name="modules">
-			<destination>{a5e91e90-ed9b-40f0-ba8d-b116aa1c4e09}</destination>
 			<destination>{d2235865-3116-4d86-8fdb-2c13f9dc047f}</destination>
+			<destination>{a5e91e90-ed9b-40f0-ba8d-b116aa1c4e09}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c27a7777-cdfd-459c-8c9b-af43782b4d8d}">

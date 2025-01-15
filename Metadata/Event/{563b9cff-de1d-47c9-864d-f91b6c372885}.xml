@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{563b9cff-de1d-47c9-864d-f91b6c372885}">
 		<property name="name">
 			<value>freezersecret</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{face9f4d-b055-4f7f-89fe-2d6c3b8ce8b9}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{2da2d395-8704-4e14-a498-af03af924691}</destination>
 		</relationship>
@@ -61,8 +64,15 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{36a13176-e6c4-4673-b730-fa78e8ccd46d}" />
+	<object class="MarkerTrack" id="{36a13176-e6c4-4673-b730-fa78e8ccd46d}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{da93a452-311a-4163-8888-a7556728ca10}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{e4ad5dbf-7e44-41dd-b84e-93e166fffb83}</destination>
 		</relationship>

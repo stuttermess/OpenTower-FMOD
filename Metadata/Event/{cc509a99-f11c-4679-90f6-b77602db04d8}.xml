@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{cc509a99-f11c-4679-90f6-b77602db04d8}">
 		<property name="name">
 			<value>johndead</value>
@@ -59,12 +59,6 @@
 	<object class="EventAutomatableProperties" id="{9a98f415-adca-4e3f-b0ba-b3895b52bee5}">
 		<property name="dopplerScale">
 			<value>0</value>
-		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{588b0ec2-b738-4acc-a63c-daf5b6650fcc}" />

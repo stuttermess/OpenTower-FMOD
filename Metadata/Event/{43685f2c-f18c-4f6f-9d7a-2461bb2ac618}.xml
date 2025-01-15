@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{43685f2c-f18c-4f6f-9d7a-2461bb2ac618}">
 		<property name="name">
 			<value>captaingoblinshoot</value>
@@ -59,12 +59,6 @@
 	<object class="EventAutomatableProperties" id="{532420fb-032c-47bd-b2b5-c480c7b06874}">
 		<property name="dopplerScale">
 			<value>0</value>
-		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e1e7bd7a-8115-4eb2-972a-54b7f5b28d46}" />

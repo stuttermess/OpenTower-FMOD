@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0d472b80-59de-4c7b-8d6c-7b0b585ae222}">
 		<property name="note">
 			<value>might be missing something</value>
@@ -67,10 +67,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{c2fea4b5-02ce-4a9b-bfe9-3a482e807508}" />
@@ -113,12 +113,12 @@
 	</object>
 	<object class="Timeline" id="{b2bfffa8-1019-4ba7-96d7-2e8fde495c27}">
 		<relationship name="modules">
-			<destination>{659fcf04-1736-45fb-9098-112682cbe7d0}</destination>
 			<destination>{2cff69dd-6f37-4712-90d9-8b3bcfb53224}</destination>
+			<destination>{65d4eefa-1b0a-4126-a9b1-c316289ab8dd}</destination>
+			<destination>{659fcf04-1736-45fb-9098-112682cbe7d0}</destination>
 			<destination>{9a49facc-f44c-448b-86f4-ee51c9bbc455}</destination>
 			<destination>{cbbf2f8f-864f-4327-99ac-81137ab49fe5}</destination>
 			<destination>{728c6cc6-d0b2-485e-a58a-8838d55a0b7b}</destination>
-			<destination>{65d4eefa-1b0a-4126-a9b1-c316289ab8dd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{26424404-d813-482b-a202-c4b23620f8e5}">

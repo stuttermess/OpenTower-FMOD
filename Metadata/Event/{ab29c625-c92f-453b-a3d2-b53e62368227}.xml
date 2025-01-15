@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ab29c625-c92f-453b-a3d2-b53e62368227}">
 		<property name="name">
 			<value>animatronic</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{92ca894a-47fe-40e1-83ef-81eee4f3a851}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="modules">
 			<destination>{5958b3f8-bb89-4657-8519-576f9948d070}</destination>
 			<destination>{25c1e55e-5d7c-429f-a00e-84ffd14bde6b}</destination>
@@ -65,14 +68,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{cb600f6d-6a1a-4707-83d5-a18f803c402a}" />
+	<object class="MarkerTrack" id="{cb600f6d-6a1a-4707-83d5-a18f803c402a}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{189242ad-691c-42d5-80d2-29e49cb01328}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{511324ff-c3f7-4e71-9176-cad538ebe239}</destination>
 			<destination>{ac4be491-a198-48e3-8abf-9426157ee616}</destination>
@@ -208,9 +218,9 @@
 	<object class="TransitionTimeline" id="{85a82a62-111f-42b0-9247-cc025e824d2d}">
 		<relationship name="modules">
 			<destination>{511324ff-c3f7-4e71-9176-cad538ebe239}</destination>
+			<destination>{5958b3f8-bb89-4657-8519-576f9948d070}</destination>
 			<destination>{ce9c488f-73f4-4339-bacd-40f3114c7dab}</destination>
 			<destination>{25c1e55e-5d7c-429f-a00e-84ffd14bde6b}</destination>
-			<destination>{5958b3f8-bb89-4657-8519-576f9948d070}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2aaffd0f-63db-47d7-bbb9-a59ba10e9624}" />

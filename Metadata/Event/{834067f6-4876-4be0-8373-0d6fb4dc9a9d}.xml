@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{834067f6-4876-4be0-8373-0d6fb4dc9a9d}">
 		<property name="name">
 			<value>explosion</value>
@@ -56,7 +56,14 @@
 			<destination>{f18d5877-3d50-41c0-b6c0-9be04ada9938}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{ffd8f54c-a71f-4091-b62e-3e43d66182e5}" />
+	<object class="EventAutomatableProperties" id="{ffd8f54c-a71f-4091-b62e-3e43d66182e5}">
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>900</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{04e737f1-a830-45b3-91d5-60c80d6ca480}" />
 	<object class="GroupTrack" id="{e26710be-2884-4b75-88bc-8331fb1b1905}">
 		<relationship name="modules">

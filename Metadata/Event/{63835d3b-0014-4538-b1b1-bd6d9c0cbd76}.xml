@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{63835d3b-0014-4538-b1b1-bd6d9c0cbd76}">
 		<property name="name">
 			<value>sniffbump</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{71087a9d-a7b0-42d1-9cee-8de2ddba8a51}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c6a9863d-9d59-4795-95c7-b3ad173b33b4}</destination>
 		</relationship>
@@ -61,14 +64,21 @@
 			<value>0</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>100</value>
 		</property>
 		<property name="maximumDistance">
-			<value>2000</value>
+			<value>900</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{9fee623c-b7a2-4270-a33b-f21ae8842b3c}" />
+	<object class="MarkerTrack" id="{9fee623c-b7a2-4270-a33b-f21ae8842b3c}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="GroupTrack" id="{13bfd076-ee7a-49b4-88d3-2357f249a2d8}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{536bd146-48b2-4cd5-b158-3afbf8028f8a}</destination>
 		</relationship>

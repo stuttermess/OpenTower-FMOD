@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7de6000d-c8cf-4ed4-9932-f7e609fd994e}">
 		<property name="name">
 			<value>pepgusswitch</value>
@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{b7e35cc4-ef5e-4cc1-8004-b31afa9eed56}">
+		<property name="uiTrackHeight">
+			<value>28</value>
+		</property>
 		<relationship name="mixerGroup">
 			<destination>{c68fa907-8739-4fb4-a9c6-b4ab8b64abf4}</destination>
 		</relationship>
@@ -60,15 +63,16 @@
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>2000</value>
+	</object>
+	<object class="MarkerTrack" id="{fd13d969-61c0-4bd5-902b-e449d7e08398}">
+		<property name="uiTrackHeight">
+			<value>100</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{fd13d969-61c0-4bd5-902b-e449d7e08398}" />
 	<object class="GroupTrack" id="{3e0f144e-78f5-43a7-8894-50aeac61597f}">
+		<property name="uiTrackHeight">
+			<value>100</value>
+		</property>
 		<relationship name="modules">
 			<destination>{db389a6c-b6b9-4628-9c08-1c43db18f117}</destination>
 		</relationship>
